@@ -1,8 +1,28 @@
 # Exclude compound data folders (too large for git)
-Inverse-design/*/
+# Ignore EVERYTHING in Inverse-design first
+Inverse-design/*
 
-# Keep the download script
-!Inverse-design/download_nomad.ps1
+# Then allow ONLY specific files/folders we want to track
+!Inverse-design/*.ps1
+!Inverse-design/dresselhaus/
+!Inverse-design/high_order/
+!Inverse-design/rashba/
+!Inverse-design/zeeman/
+!Inverse-design/unmatched/
+
+# But ignore all compound folders inside category folders
+Inverse-design/dresselhaus/*
+Inverse-design/high_order/*
+Inverse-design/rashba/*
+Inverse-design/zeeman/*
+Inverse-design/unmatched/*
+
+# Allow .gitkeep files to track empty folders
+!Inverse-design/dresselhaus/.gitkeep
+!Inverse-design/high_order/.gitkeep
+!Inverse-design/rashba/.gitkeep
+!Inverse-design/zeeman/.gitkeep
+!Inverse-design/unmatched/.gitkeep
 
 # Large data files
 ss_2d_materials.json
