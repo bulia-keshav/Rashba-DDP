@@ -1,0 +1,31 @@
+# Exclude compound data folders (too large for git)
+Inverse-design/*/
+
+# Keep the download script
+!Inverse-design/download_nomad.ps1
+
+# Large data files
+ss_2d_materials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
