@@ -1,0 +1,38 @@
+n_feat,features,cv5_r2,source
+3,"[np.str_('E_pfrac_relevant'), np.str_('start_adf_min'), np.str_('start_adf_n_triplets')]",0.3502375757578614,triple_rank1
+4,"[np.str_('E_pfrac_relevant'), np.str_('start_adf_min'), np.str_('start_adf_n_triplets'), np.str_('mid_nearest_Z')]",0.42599396868683226,triple_rank1
+5,"[np.str_('E_pfrac_relevant'), np.str_('start_adf_min'), np.str_('start_adf_n_triplets'), np.str_('mid_nearest_Z'), np.str_('start_adf_max')]",0.4290211201364126,triple_rank1
+6,"[np.str_('E_pfrac_relevant'), np.str_('start_adf_min'), np.str_('start_adf_n_triplets'), np.str_('mid_nearest_Z'), np.str_('start_adf_max'), np.str_('kpath_angle_deg')]",0.4608972787057305,triple_rank1
+7,"[np.str_('E_pfrac_relevant'), np.str_('start_adf_min'), np.str_('start_adf_n_triplets'), np.str_('mid_nearest_Z'), np.str_('start_adf_max'), np.str_('kpath_angle_deg'), np.str_('mid_adf_max')]",0.428358079276534,triple_rank1
+3,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min')]",0.3431739836830495,triple_rank2
+4,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z')]",0.3874011120386098,triple_rank2
+5,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean')]",0.4435213061031014,triple_rank2
+6,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg')]",0.446118356323743,triple_rank2
+7,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg'), np.str_('mid_nearest_Z4')]",0.4446506849540568,triple_rank2
+8,"[np.str_('E_pfrac_relevant'), np.str_('mid_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg'), np.str_('mid_nearest_Z4'), np.str_('n_elements')]",0.4490265836619871,triple_rank2
+3,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min')]",0.3431739836830495,triple_rank3
+4,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z')]",0.3874011120386098,triple_rank3
+5,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean')]",0.4435213061031014,triple_rank3
+6,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg')]",0.446118356323743,triple_rank3
+7,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg'), np.str_('mid_nearest_Z4')]",0.4446506849540568,triple_rank3
+8,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('start_adf_min'), np.str_('mid_nearest_Z'), np.str_('start_adf_mean'), np.str_('kpath_angle_deg'), np.str_('mid_nearest_Z4'), np.str_('n_elements')]",0.4490265836619871,triple_rank3
+3,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean')]",0.34193944066883963,triple_rank4
+4,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean'), np.str_('mid_nearest_Z')]",0.408828957050076,triple_rank4
+5,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean'), np.str_('mid_nearest_Z'), np.str_('end_adf_min')]",0.42448161463067124,triple_rank4
+6,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean'), np.str_('mid_nearest_Z'), np.str_('end_adf_min'), np.str_('kmid_frac_z')]",0.4166933427534314,triple_rank4
+7,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean'), np.str_('mid_nearest_Z'), np.str_('end_adf_min'), np.str_('kmid_frac_z'), np.str_('end_adf_n_triplets')]",0.4280445287207163,triple_rank4
+8,"[np.str_('E_pfrac_relevant'), np.str_('kpath_angle_deg'), np.str_('start_adf_mean'), np.str_('mid_nearest_Z'), np.str_('end_adf_min'), np.str_('kmid_frac_z'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_mean')]",0.46147286698762446,triple_rank4
+3,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max')]",0.3294358195603178,triple_rank5
+4,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max'), np.str_('mid_nearest_Z')]",0.37761576544427033,triple_rank5
+5,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max'), np.str_('mid_nearest_Z'), np.str_('kpath_angle_deg')]",0.4301665535318381,triple_rank5
+6,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max'), np.str_('mid_nearest_Z'), np.str_('kpath_angle_deg'), np.str_('mid_adf_mean')]",0.4358385205269027,triple_rank5
+7,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max'), np.str_('mid_nearest_Z'), np.str_('kpath_angle_deg'), np.str_('mid_adf_mean'), np.str_('mid_nearest_Z4')]",0.43957939985782934,triple_rank5
+8,"[np.str_('E_pfrac_relevant'), np.str_('end_adf_n_triplets'), np.str_('mid_adf_max'), np.str_('mid_nearest_Z'), np.str_('kpath_angle_deg'), np.str_('mid_adf_mean'), np.str_('mid_nearest_Z4'), np.str_('start_adf_max')]",0.4437628501862426,triple_rank5
+1,[np.str_('mid_adf_max')],-0.022309562568639474,from_scratch
+2,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant')]",0.15360801561627474,from_scratch
+3,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z')]",0.318851628264349,from_scratch
+4,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z'), np.str_('end_adf_n_triplets')]",0.37440062475908364,from_scratch
+5,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z'), np.str_('end_adf_n_triplets'), np.str_('start_adf_mean')]",0.41250335082734074,from_scratch
+6,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z'), np.str_('end_adf_n_triplets'), np.str_('start_adf_mean'), np.str_('start_adf_std')]",0.43396179723743256,from_scratch
+7,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z'), np.str_('end_adf_n_triplets'), np.str_('start_adf_mean'), np.str_('start_adf_std'), np.str_('band_binary')]",0.445012791562344,from_scratch
+8,"[np.str_('mid_adf_max'), np.str_('E_pfrac_relevant'), np.str_('mid_nearest_Z'), np.str_('end_adf_n_triplets'), np.str_('start_adf_mean'), np.str_('start_adf_std'), np.str_('band_binary'), np.str_('kpath_angle_deg')]",0.44870517305807633,from_scratch

@@ -1,0 +1,25 @@
+n_feat,features,cv5_r2,loo_r2,loo_mae
+7,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4,0.4446506849540568,0.5843718107591384,0.40143164933367476
+7,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4,0.4446506849540568,0.5843718107591384,0.40143164933367476
+8,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4 + n_elements,0.4490265836619871,0.5780841556148795,0.40354014315721476
+8,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4 + n_elements,0.4490265836619871,0.5780841556148795,0.40354014315721476
+7,mid_adf_max + E_pfrac_relevant + mid_nearest_Z + end_adf_n_triplets + start_adf_mean + start_adf_std + band_binary,0.445012791562344,0.5725947506670437,0.40610644264221185
+4,E_pfrac_relevant + start_adf_min + start_adf_n_triplets + mid_nearest_Z,0.42599396868683226,0.5695905537513526,0.3951132473038464
+5,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean,0.4435213061031014,0.5673241661109081,0.4027785150481434
+5,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean,0.4435213061031014,0.5673241661109081,0.4027785150481434
+6,E_pfrac_relevant + start_adf_min + start_adf_n_triplets + mid_nearest_Z + start_adf_max + kpath_angle_deg,0.4608972787057305,0.558252715284384,0.4084550932628352
+4,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z,0.3874011120386098,0.5573500132186751,0.40415164474626863
+6,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg,0.446118356323743,0.556714534786118,0.4189537612193968
+6,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg,0.446118356323743,0.556714534786118,0.4189537612193968
+8,E_pfrac_relevant + kpath_angle_deg + start_adf_mean + mid_nearest_Z + end_adf_min + kmid_frac_z + end_adf_n_triplets + mid_adf_mean,0.46147286698762446,0.555703254403815,0.4105595757530957
+4,E_pfrac_relevant + kpath_angle_deg + start_adf_mean + mid_nearest_Z,0.408828957050076,0.531143579680843,0.4268022306209658
+3,E_pfrac_relevant + end_adf_n_triplets + start_adf_min,0.3431739836830495,0.5151930733513075,0.4212157518898568
+3,E_pfrac_relevant + start_adf_min + start_adf_n_triplets,0.3502375757578614,0.49936230171662743,0.4304898726440058
+3,E_pfrac_relevant + start_adf_min + start_adf_n_triplets,0.3502375757578614,0.49936230171662743,0.4304898726440058
+5,E_pfrac_relevant + end_adf_n_triplets + mid_adf_max + mid_nearest_Z + kpath_angle_deg,0.4301665535318381,0.4738660543294567,0.45706334535319626
+2,E_pfrac_relevant + start_adf_mean,0.185933524500739,0.3798850370250444,0.4914134904547436
+2,kvec_x + start_adf_mean,0.15782923019040265,0.2777960022437761,0.5519254206471327
+2,kpath_angle_deg + start_adf_mean,0.17847677744490004,0.26812923572749303,0.5645995150031113
+1,start_adf_mean,-0.024978415005699684,0.22979780925282,0.5654952533745184
+1,mid_adf_max,-0.022309562568639474,0.016871557809158166,0.6390448620075133
+1,mid_adf_max,-0.022309562568639474,0.016871557809158166,0.6390448620075133
