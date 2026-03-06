@@ -4,6 +4,7 @@ Inverse-design/*
 
 # Then allow ONLY specific files/folders we want to track
 !Inverse-design/*.ps1
+!Inverse-design/reformat_poscars.py
 !Inverse-design/dresselhaus/
 !Inverse-design/high_order/
 !Inverse-design/rashba/
