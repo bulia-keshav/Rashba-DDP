@@ -1,25 +1,25 @@
 n_feat,features,cv5_r2,loo_r2,loo_mae
-7,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4,0.4446506849540568,0.5843718107591384,0.40143164933367476
-7,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4,0.4446506849540568,0.5843718107591384,0.40143164933367476
-8,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4 + n_elements,0.4490265836619871,0.5780841556148795,0.40354014315721476
-8,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg + mid_nearest_Z4 + n_elements,0.4490265836619871,0.5780841556148795,0.40354014315721476
-7,mid_adf_max + E_pfrac_relevant + mid_nearest_Z + end_adf_n_triplets + start_adf_mean + start_adf_std + band_binary,0.445012791562344,0.5725947506670437,0.40610644264221185
-4,E_pfrac_relevant + start_adf_min + start_adf_n_triplets + mid_nearest_Z,0.42599396868683226,0.5695905537513526,0.3951132473038464
-5,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean,0.4435213061031014,0.5673241661109081,0.4027785150481434
-5,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean,0.4435213061031014,0.5673241661109081,0.4027785150481434
-6,E_pfrac_relevant + start_adf_min + start_adf_n_triplets + mid_nearest_Z + start_adf_max + kpath_angle_deg,0.4608972787057305,0.558252715284384,0.4084550932628352
-4,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z,0.3874011120386098,0.5573500132186751,0.40415164474626863
-6,E_pfrac_relevant + mid_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg,0.446118356323743,0.556714534786118,0.4189537612193968
-6,E_pfrac_relevant + end_adf_n_triplets + start_adf_min + mid_nearest_Z + start_adf_mean + kpath_angle_deg,0.446118356323743,0.556714534786118,0.4189537612193968
-8,E_pfrac_relevant + kpath_angle_deg + start_adf_mean + mid_nearest_Z + end_adf_min + kmid_frac_z + end_adf_n_triplets + mid_adf_mean,0.46147286698762446,0.555703254403815,0.4105595757530957
-4,E_pfrac_relevant + kpath_angle_deg + start_adf_mean + mid_nearest_Z,0.408828957050076,0.531143579680843,0.4268022306209658
-3,E_pfrac_relevant + end_adf_n_triplets + start_adf_min,0.3431739836830495,0.5151930733513075,0.4212157518898568
-3,E_pfrac_relevant + start_adf_min + start_adf_n_triplets,0.3502375757578614,0.49936230171662743,0.4304898726440058
-3,E_pfrac_relevant + start_adf_min + start_adf_n_triplets,0.3502375757578614,0.49936230171662743,0.4304898726440058
-5,E_pfrac_relevant + end_adf_n_triplets + mid_adf_max + mid_nearest_Z + kpath_angle_deg,0.4301665535318381,0.4738660543294567,0.45706334535319626
-2,E_pfrac_relevant + start_adf_mean,0.185933524500739,0.3798850370250444,0.4914134904547436
-2,kvec_x + start_adf_mean,0.15782923019040265,0.2777960022437761,0.5519254206471327
-2,kpath_angle_deg + start_adf_mean,0.17847677744490004,0.26812923572749303,0.5645995150031113
-1,start_adf_mean,-0.024978415005699684,0.22979780925282,0.5654952533745184
-1,mid_adf_max,-0.022309562568639474,0.016871557809158166,0.6390448620075133
-1,mid_adf_max,-0.022309562568639474,0.016871557809158166,0.6390448620075133
+4,E_pfrac_relevant + ehull + pmid_afs_gauss_std + kpath_angle_deg,0.47707418511113076,0.5579400601902246,0.40561995912179716
+6,E_pfrac_relevant + ehull + pmid_afs_gauss_std + kpath_angle_deg + kstart_frac_y + band_binary,0.4636678808857192,0.5555954696174863,0.4058185131398644
+8,pmid_grdf_trig_max + E_pfrac_relevant + E_pfrac_CBM + radius_mean + pmid_grdf_gauss_std + kstart_frac_x + pmid_afs_trig_mean + ehull,0.4305415920731777,0.549710373142873,0.4069897059649956
+7,pmid_grdf_trig_max + E_pfrac_relevant + E_pfrac_CBM + radius_mean + pmid_grdf_gauss_std + kstart_frac_x + pmid_afs_trig_mean,0.41539342261921364,0.5364512236390491,0.40851379412441724
+6,E_pfrac_relevant + ehull + pstart_afs_gauss_std + pmid_afs_gauss_std + kpath_angle_deg + pstart_afs_bessel_std,0.42427512489403607,0.5355744806074335,0.41127006861872795
+5,E_pfrac_relevant + ehull + pmid_afs_gauss_std + kpath_angle_deg + kstart_frac_y,0.4859929660647751,0.5315139948008216,0.4144135633259286
+3,E_pfrac_relevant + ehull + pmid_afs_gauss_std,0.418017097247704,0.5301727245778083,0.41774614854440456
+8,E_pfrac_relevant + pmid_grdf_trig_max + pstart_grdf_gauss_mean + kend_frac_x + kvec_z + pstart_afs_bessel_std + pend_afs_gauss_mean + radius_mean,0.4317520539758538,0.5300106121933624,0.40158846345064114
+7,E_pfrac_relevant + pmid_grdf_trig_max + pstart_grdf_gauss_mean + kend_frac_x + kvec_z + pstart_afs_bessel_std + pend_afs_gauss_mean,0.420664864503191,0.5266916059936461,0.40359906790082045
+7,E_pfrac_relevant + ehull + pstart_afs_gauss_std + pmid_afs_gauss_std + kpath_angle_deg + pstart_afs_bessel_std + sum_Z4,0.40441455894655254,0.5224697657273853,0.4073429659448019
+8,E_pfrac_relevant + ehull + pstart_afs_gauss_std + pmid_afs_gauss_std + kpath_angle_deg + pstart_afs_bessel_std + sum_Z4 + pmid_grdf_trig_max,0.4342634964876802,0.5186308713166989,0.41019219573416366
+4,pmid_grdf_trig_max + E_pfrac_relevant + E_pfrac_CBM + radius_mean,0.40455055694750985,0.516620581085458,0.41682723805032135
+5,E_pfrac_relevant + pend_grdf_trig_max + pstart_afs_gauss_std + pstart_afs_bessel_std + pstart_grdf_trig_max,0.4210156529323873,0.5008516399593091,0.4217698917528478
+4,E_pfrac_relevant + pmid_grdf_trig_max + pstart_grdf_gauss_mean + kend_frac_x,0.4000797533673489,0.5000218144174167,0.426916476791661
+5,E_pfrac_relevant + pmid_grdf_trig_max + pstart_grdf_gauss_mean + kend_frac_x + kvec_z,0.41162773776140116,0.4983502052635128,0.42759814078168173
+6,E_pfrac_relevant + pend_grdf_trig_max + pstart_afs_gauss_std + pstart_afs_bessel_std + pstart_grdf_trig_max + pmid_grdf_gauss_mean,0.4133155076834278,0.4895407300132114,0.427699118028036
+3,E_pfrac_relevant + pmid_grdf_trig_max + pstart_afs_gauss_std,0.41852072603036355,0.48832930616210457,0.4341255039680295
+3,E_pfrac_relevant + pmid_grdf_trig_max + pstart_afs_gauss_std,0.41852072603036355,0.48832930616210457,0.4341255039680295
+2,pmid_grdf_trig_max + E_pfrac_relevant,0.2528761271537302,0.41583832918036523,0.4718611193645292
+2,E_pfrac_relevant + pmid_grdf_trig_max,0.2567877308849156,0.4149851204429883,0.47146084027871865
+2,E_pfrac_relevant + pend_grdf_trig_max,0.2115284925095419,0.4065037045844112,0.480406595057976
+1,pmid_grdf_trig_max,0.08064082270635572,0.28784520238145817,0.5370738365266381
+1,pmid_grdf_trig_max,0.08064082270635572,0.28784520238145817,0.5370738365266381
+1,pend_grdf_trig_max,0.025945208605300474,0.2676974049659948,0.5499518131558488
