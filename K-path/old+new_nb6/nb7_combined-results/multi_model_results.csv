@@ -1,33 +1,21 @@
-combo,model,n_feat,loo_r2,loo_mae,features
-C3_new_best4,XGBoost,5,0.5778306951458814,0.4524700288965245,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg"
-C3_new_best4,RandomForest,5,0.4962256338069261,0.4874164177718403,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg"
-C3_new_best4,GradBoosting,5,0.5499324380132946,0.4729850922777016,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg"
-C3_new_best4,SVR_RBF,5,0.5357910705379554,0.47212898755571675,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg"
-C3_new_best4+rm,XGBoost,6,0.5969748238012242,0.45221594456952025,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg, old_radius_mean"
-C3_new_best4+rm,RandomForest,6,0.5145674253876286,0.4866148195229176,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg, old_radius_mean"
-C3_new_best4+rm,GradBoosting,6,0.5627136583624885,0.45170483691566765,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg, old_radius_mean"
-C3_new_best4+rm,SVR_RBF,6,0.427524842417326,0.49082493114528486,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, pmid_afs_gauss_std, old_kpath_angle_deg, old_radius_mean"
-C8_full_old_new,XGBoost,10,0.5591498456036434,0.4624125804034146,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_nearest_Z, mid_nearest_Z4, old_kpath_angle_deg, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, old_radius_mean, pstart_afs_gauss_std"
-C8_full_old_new,RandomForest,10,0.4831574335480108,0.4905055536118728,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_nearest_Z, mid_nearest_Z4, old_kpath_angle_deg, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, old_radius_mean, pstart_afs_gauss_std"
-C8_full_old_new,GradBoosting,10,0.5653154722112067,0.45848252837751363,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_nearest_Z, mid_nearest_Z4, old_kpath_angle_deg, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, old_radius_mean, pstart_afs_gauss_std"
-C8_full_old_new,SVR_RBF,10,0.25638304994827865,0.5414746325780778,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_nearest_Z, mid_nearest_Z4, old_kpath_angle_deg, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, old_radius_mean, pstart_afs_gauss_std"
-C9_kitchen_sink,XGBoost,14,0.5580473571661463,0.4508158497714033,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, pstart_afs_gauss_std, old_radius_mean, old_E_pfrac_CBM"
-C9_kitchen_sink,RandomForest,14,0.4415887022090935,0.5028834741062229,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, pstart_afs_gauss_std, old_radius_mean, old_E_pfrac_CBM"
-C9_kitchen_sink,GradBoosting,14,0.44526956456684574,0.4886639114694294,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, pstart_afs_gauss_std, old_radius_mean, old_E_pfrac_CBM"
-C9_kitchen_sink,SVR_RBF,14,0.3536494011540552,0.5051230881609627,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, pmid_grdf_trig_max, old_ehull, pmid_afs_gauss_std, pstart_afs_gauss_std, old_radius_mean, old_E_pfrac_CBM"
-C5_old_best7,XGBoost,8,0.5495837401838497,0.46719694213674523,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4"
-C5_old_best7,RandomForest,8,0.5092805685280555,0.4785951223054443,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4"
-C5_old_best7,GradBoosting,8,0.48120851494184036,0.4543638993868548,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4"
-C5_old_best7,SVR_RBF,8,0.4054161943494702,0.5176809068980259,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4"
-C5_old_best7+rm,XGBoost,9,0.575162665599622,0.45931696294052426,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, old_radius_mean"
-C5_old_best7+rm,RandomForest,9,0.5231153746221164,0.47451397207915874,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, old_radius_mean"
-C5_old_best7+rm,GradBoosting,9,0.4651824766632934,0.4695451911294334,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, old_radius_mean"
-C5_old_best7+rm,SVR_RBF,9,0.3568313157833124,0.5189657060838809,"old_E_pfrac_VBM, old_E_pfrac_CBM, mid_adf_n_triplets, start_adf_min, mid_nearest_Z, start_adf_mean, old_kpath_angle_deg, mid_nearest_Z4, old_radius_mean"
-C2_old_best4,XGBoost,5,0.5482931890590457,0.4665748044216271,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z"
-C2_old_best4,RandomForest,5,0.5153424649152627,0.4761136362522671,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z"
-C2_old_best4,GradBoosting,5,0.4949594130067482,0.4723398876061628,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z"
-C2_old_best4,SVR_RBF,5,0.4797661825956435,0.4976995151176666,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z"
-C2_old_best4+rm,XGBoost,6,0.520835180372353,0.4913165838164512,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z, old_radius_mean"
-C2_old_best4+rm,RandomForest,6,0.5275032299324036,0.47845367433896924,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z, old_radius_mean"
-C2_old_best4+rm,GradBoosting,6,0.47127855494068227,0.4862881010443476,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z, old_radius_mean"
-C2_old_best4+rm,SVR_RBF,6,0.42847194902417374,0.5188039480805898,"old_E_pfrac_VBM, old_E_pfrac_CBM, start_adf_min, start_adf_n_triplets, mid_nearest_Z, old_radius_mean"
+combo,model,n_feat,loo_r2,loo_mae
+C6_proven_plus_new,XGBoost,7,0.6319829843618567,0.42835620514070144
+C6_proven_plus_new,RandomForest,7,0.5069911996222879,0.4900779106405413
+C6_proven_plus_new,GradBoosting,7,0.5321774188192601,0.46067463795234703
+C6_proven_plus_new,SVR_RBF,7,0.36183382235566575,0.5283320962796664
+C10_balanced_all_proven,XGBoost,9,0.6021099421586014,0.42279512561451305
+C10_balanced_all_proven,RandomForest,9,0.493892854557869,0.49075140726051497
+C10_balanced_all_proven,GradBoosting,9,0.5609143622077766,0.45321364490195243
+C10_balanced_all_proven,SVR_RBF,9,0.29571333411360257,0.5360972686770656
+C5_new4_rm_Z4,XGBoost,7,0.5979470023974549,0.43849246564537586
+C5_new4_rm_Z4,RandomForest,7,0.5088511119050062,0.4885741112763049
+C5_new4_rm_Z4,GradBoosting,7,0.5307420796650277,0.46151963881528585
+C5_new4_rm_Z4,SVR_RBF,7,0.3618338223556662,0.528332096279667
+C4_new4_plus_rm,XGBoost,6,0.5969748238012242,0.45221594456952025
+C4_new4_plus_rm,RandomForest,6,0.5145674253876286,0.4866148195229176
+C4_new4_plus_rm,GradBoosting,6,0.5627136583624885,0.45170483691566765
+C4_new4_plus_rm,SVR_RBF,6,0.427524842417326,0.49082493114528486
+C2_new_best4,XGBoost,5,0.5778306951458814,0.4524700288965245
+C2_new_best4,RandomForest,5,0.4962256338069261,0.4874164177718403
+C2_new_best4,GradBoosting,5,0.5499324380132946,0.4729850922777016
+C2_new_best4,SVR_RBF,5,0.5357910705379554,0.47212898755571675
