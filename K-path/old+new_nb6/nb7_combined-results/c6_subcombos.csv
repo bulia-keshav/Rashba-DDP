@@ -1,0 +1,512 @@
+n_feat,features,features_full,loo_r2,loo_mae
+1,E_pfrac_VBM,old_E_pfrac_VBM,-0.14592030070056805,0.772489205230366
+1,E_pfrac_CBM,old_E_pfrac_CBM,0.17566930040157913,0.6110351959045487
+1,radius_mean,old_radius_mean,-0.1508367146687215,0.749681794985376
+1,max_Z4,old_max_Z4,-0.14669970284192968,0.7546508412987294
+1,pmid_afs_gauss_std,pmid_afs_gauss_std,-0.1753140025001061,0.7504781168542726
+1,kpath_angle_deg,old_kpath_angle_deg,-0.055967212309317116,0.7632750275351784
+1,ehull,old_ehull,-0.16258104323694322,0.7801665604861096
+1,E_sfrac_VBM,E_sfrac_VBM,0.2539661422191586,0.6281497703513714
+1,E_sfrac_CBM,E_sfrac_CBM,0.025634931639188174,0.6763239364094205
+2,"E_pfrac_VBM, E_pfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM",0.3794142958764568,0.5641633322359335
+2,"E_pfrac_VBM, radius_mean","old_E_pfrac_VBM, old_radius_mean",0.16381690174408103,0.6873932625549007
+2,"E_pfrac_VBM, max_Z4","old_E_pfrac_VBM, old_max_Z4",-0.003988659294291486,0.7193028009780729
+2,"E_pfrac_VBM, pmid_afs_gauss_std","old_E_pfrac_VBM, pmid_afs_gauss_std",0.031609877000983944,0.7185289231791638
+2,"E_pfrac_VBM, kpath_angle_deg","old_E_pfrac_VBM, old_kpath_angle_deg",0.07278286250549204,0.7118099099217037
+2,"E_pfrac_VBM, ehull","old_E_pfrac_VBM, old_ehull",0.004807973456122494,0.71279748986827
+2,"E_pfrac_VBM, E_sfrac_VBM","old_E_pfrac_VBM, E_sfrac_VBM",0.34149783147304147,0.596609227638052
+2,"E_pfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, E_sfrac_CBM",0.2609044071046658,0.6118518480580263
+2,"E_pfrac_CBM, radius_mean","old_E_pfrac_CBM, old_radius_mean",0.22788310253807842,0.6039658913082546
+2,"E_pfrac_CBM, max_Z4","old_E_pfrac_CBM, old_max_Z4",0.24767842092265202,0.5917556856858609
+2,"E_pfrac_CBM, pmid_afs_gauss_std","old_E_pfrac_CBM, pmid_afs_gauss_std",0.3828061549320698,0.5624562921909371
+2,"E_pfrac_CBM, kpath_angle_deg","old_E_pfrac_CBM, old_kpath_angle_deg",0.2078905008874321,0.6083380677820457
+2,"E_pfrac_CBM, ehull","old_E_pfrac_CBM, old_ehull",0.18431345776395802,0.640188093276939
+2,"E_pfrac_CBM, E_sfrac_VBM","old_E_pfrac_CBM, E_sfrac_VBM",0.34372499226873965,0.5766227217394897
+2,"E_pfrac_CBM, E_sfrac_CBM","old_E_pfrac_CBM, E_sfrac_CBM",0.19157402940774426,0.5850368692706329
+2,"radius_mean, max_Z4","old_radius_mean, old_max_Z4",-0.18507681550699262,0.7550749070861121
+2,"radius_mean, pmid_afs_gauss_std","old_radius_mean, pmid_afs_gauss_std",0.06208576290043588,0.6680070353084141
+2,"radius_mean, kpath_angle_deg","old_radius_mean, old_kpath_angle_deg",-0.0814332991106097,0.7517789440829344
+2,"radius_mean, ehull","old_radius_mean, old_ehull",-0.012638348141750244,0.7556491012380581
+2,"radius_mean, E_sfrac_VBM","old_radius_mean, E_sfrac_VBM",0.24656794183945574,0.6237199350366689
+2,"radius_mean, E_sfrac_CBM","old_radius_mean, E_sfrac_CBM",0.12763756851911467,0.6378173506765654
+2,"max_Z4, pmid_afs_gauss_std","old_max_Z4, pmid_afs_gauss_std",-0.006682293348130086,0.6769356753320404
+2,"max_Z4, kpath_angle_deg","old_max_Z4, old_kpath_angle_deg",-0.04316498499032906,0.7420868966555354
+2,"max_Z4, ehull","old_max_Z4, old_ehull",-0.1338129663086467,0.757188783414436
+2,"max_Z4, E_sfrac_VBM","old_max_Z4, E_sfrac_VBM",0.2922632210576961,0.6109260766289452
+2,"max_Z4, E_sfrac_CBM","old_max_Z4, E_sfrac_CBM",0.08394762721663174,0.6362879154706242
+2,"pmid_afs_gauss_std, kpath_angle_deg","pmid_afs_gauss_std, old_kpath_angle_deg",-0.05334186122707374,0.7272346506263271
+2,"pmid_afs_gauss_std, ehull","pmid_afs_gauss_std, old_ehull",0.20459043524198994,0.6622826474700311
+2,"pmid_afs_gauss_std, E_sfrac_VBM","pmid_afs_gauss_std, E_sfrac_VBM",0.2507631410868012,0.6151887732997086
+2,"pmid_afs_gauss_std, E_sfrac_CBM","pmid_afs_gauss_std, E_sfrac_CBM",0.1474626742804227,0.6393064329600093
+2,"kpath_angle_deg, ehull","old_kpath_angle_deg, old_ehull",-0.05301144184544637,0.7393785002111183
+2,"kpath_angle_deg, E_sfrac_VBM","old_kpath_angle_deg, E_sfrac_VBM",0.29173278442662987,0.6085172393972224
+2,"kpath_angle_deg, E_sfrac_CBM","old_kpath_angle_deg, E_sfrac_CBM",0.0016937653606995395,0.7096322477514092
+2,"ehull, E_sfrac_VBM","old_ehull, E_sfrac_VBM",0.2779073083851711,0.6278596604713287
+2,"ehull, E_sfrac_CBM","old_ehull, E_sfrac_CBM",0.013291576409083183,0.6877495587907657
+2,"E_sfrac_VBM, E_sfrac_CBM","E_sfrac_VBM, E_sfrac_CBM",0.2527517868753376,0.5922179587007773
+3,"E_pfrac_VBM, E_pfrac_CBM, radius_mean","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean",0.563367615641344,0.47871786473977446
+3,"E_pfrac_VBM, E_pfrac_CBM, max_Z4","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4",0.4846070115695963,0.5032734299958355
+3,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std",0.5533241139832806,0.4719390189816253
+3,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg",0.4959943872032758,0.49506010520337806
+3,"E_pfrac_VBM, E_pfrac_CBM, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull",0.4451203236106853,0.5362616302365004
+3,"E_pfrac_VBM, E_pfrac_CBM, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, E_sfrac_VBM",0.5212077258558168,0.49240563190826264
+3,"E_pfrac_VBM, E_pfrac_CBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, E_sfrac_CBM",0.5149626189681151,0.4754829441899001
+3,"E_pfrac_VBM, radius_mean, max_Z4","old_E_pfrac_VBM, old_radius_mean, old_max_Z4",0.2836862780477407,0.6080207826970805
+3,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std",0.34697368984667265,0.5661824116080698
+3,"E_pfrac_VBM, radius_mean, kpath_angle_deg","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg",0.30554425411246355,0.5999981394440237
+3,"E_pfrac_VBM, radius_mean, ehull","old_E_pfrac_VBM, old_radius_mean, old_ehull",0.3599653169037329,0.5608826635365534
+3,"E_pfrac_VBM, radius_mean, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, E_sfrac_VBM",0.42320265049310024,0.5460628792252203
+3,"E_pfrac_VBM, radius_mean, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, E_sfrac_CBM",0.4749993707578972,0.5134696561688125
+3,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std",0.19157070443257318,0.633438502701846
+3,"E_pfrac_VBM, max_Z4, kpath_angle_deg","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg",-0.0009543170237493737,0.7221821908854474
+3,"E_pfrac_VBM, max_Z4, ehull","old_E_pfrac_VBM, old_max_Z4, old_ehull",0.09510279363369856,0.6672435613256512
+3,"E_pfrac_VBM, max_Z4, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, E_sfrac_VBM",0.37737574406790886,0.5764327409243343
+3,"E_pfrac_VBM, max_Z4, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, E_sfrac_CBM",0.3027940619604428,0.5722622511073796
+3,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg",0.37357307367544534,0.5708602958881493
+3,"E_pfrac_VBM, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, pmid_afs_gauss_std, old_ehull",0.45819665730100034,0.532976994206207
+3,"E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_VBM",0.45495415341952605,0.5192855593363445
+3,"E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_CBM",0.5516714282935018,0.4610706480488634
+3,"E_pfrac_VBM, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_kpath_angle_deg, old_ehull",0.12016436700560229,0.6606665367622567
+3,"E_pfrac_VBM, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_kpath_angle_deg, E_sfrac_VBM",0.38734532811200995,0.5700483563018568
+3,"E_pfrac_VBM, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_kpath_angle_deg, E_sfrac_CBM",0.36453925241337226,0.5628749366721721
+3,"E_pfrac_VBM, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_ehull, E_sfrac_VBM",0.3661764754364486,0.5628354018962745
+3,"E_pfrac_VBM, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_ehull, E_sfrac_CBM",0.3149573890234749,0.5770318279410854
+3,"E_pfrac_VBM, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, E_sfrac_VBM, E_sfrac_CBM",0.41161481389247767,0.5451552334120779
+3,"E_pfrac_CBM, radius_mean, max_Z4","old_E_pfrac_CBM, old_radius_mean, old_max_Z4",0.2801362317534294,0.5911247789883854
+3,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std",0.4949480974014626,0.5025875888015285
+3,"E_pfrac_CBM, radius_mean, kpath_angle_deg","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg",0.3808124568908644,0.5714096037883951
+3,"E_pfrac_CBM, radius_mean, ehull","old_E_pfrac_CBM, old_radius_mean, old_ehull",0.3716439835111899,0.5562841421281449
+3,"E_pfrac_CBM, radius_mean, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, E_sfrac_VBM",0.3748437816444633,0.5755568448028179
+3,"E_pfrac_CBM, radius_mean, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, E_sfrac_CBM",0.34398346364976906,0.5512778819883712
+3,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std",0.4783355989305148,0.4926824398281599
+3,"E_pfrac_CBM, max_Z4, kpath_angle_deg","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg",0.27473306768974204,0.5765170631986677
+3,"E_pfrac_CBM, max_Z4, ehull","old_E_pfrac_CBM, old_max_Z4, old_ehull",0.20253606933786605,0.6200718414277742
+3,"E_pfrac_CBM, max_Z4, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, E_sfrac_VBM",0.3727244968126271,0.5781043719667377
+3,"E_pfrac_CBM, max_Z4, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, E_sfrac_CBM",0.17585899614053024,0.6059146258036295
+3,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg",0.47677221334966113,0.49330355682758376
+3,"E_pfrac_CBM, pmid_afs_gauss_std, ehull","old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull",0.5034765449627439,0.4912189750478725
+3,"E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM",0.5143613368378495,0.5155007271477671
+3,"E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_CBM",0.5122767450825134,0.48672443498746315
+3,"E_pfrac_CBM, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull",0.2852542412571437,0.5824089439709982
+3,"E_pfrac_CBM, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_VBM",0.3650603801966208,0.5543202993604872
+3,"E_pfrac_CBM, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_CBM",0.3010063135489417,0.5575255189857098
+3,"E_pfrac_CBM, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_ehull, E_sfrac_VBM",0.3486703115314995,0.5678679423958364
+3,"E_pfrac_CBM, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_ehull, E_sfrac_CBM",0.2645102101044925,0.5737838635396476
+3,"E_pfrac_CBM, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, E_sfrac_VBM, E_sfrac_CBM",0.34298297740854045,0.5813118464007523
+3,"radius_mean, max_Z4, pmid_afs_gauss_std","old_radius_mean, old_max_Z4, pmid_afs_gauss_std",0.13207719863070222,0.6327303238300361
+3,"radius_mean, max_Z4, kpath_angle_deg","old_radius_mean, old_max_Z4, old_kpath_angle_deg",-0.08718386455504556,0.7518772530555724
+3,"radius_mean, max_Z4, ehull","old_radius_mean, old_max_Z4, old_ehull",-0.03908587991920354,0.735066525025801
+3,"radius_mean, max_Z4, E_sfrac_VBM","old_radius_mean, old_max_Z4, E_sfrac_VBM",0.2944411618718531,0.6100693739736923
+3,"radius_mean, max_Z4, E_sfrac_CBM","old_radius_mean, old_max_Z4, E_sfrac_CBM",0.14207033500872024,0.6257430945020733
+3,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg",0.19316733375069284,0.6037999275091923
+3,"radius_mean, pmid_afs_gauss_std, ehull","old_radius_mean, pmid_afs_gauss_std, old_ehull",0.3759710645618005,0.5549280692254653
+3,"radius_mean, pmid_afs_gauss_std, E_sfrac_VBM","old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM",0.3683925661914351,0.5620532125704216
+3,"radius_mean, pmid_afs_gauss_std, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, E_sfrac_CBM",0.34463836014316973,0.5557785610333839
+3,"radius_mean, kpath_angle_deg, ehull","old_radius_mean, old_kpath_angle_deg, old_ehull",0.10683805398278645,0.6897985456158416
+3,"radius_mean, kpath_angle_deg, E_sfrac_VBM","old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM",0.29946345827545573,0.6095708182219304
+3,"radius_mean, kpath_angle_deg, E_sfrac_CBM","old_radius_mean, old_kpath_angle_deg, E_sfrac_CBM",0.251257763911348,0.6185169531046742
+3,"radius_mean, ehull, E_sfrac_VBM","old_radius_mean, old_ehull, E_sfrac_VBM",0.3646574525587417,0.5773199199859542
+3,"radius_mean, ehull, E_sfrac_CBM","old_radius_mean, old_ehull, E_sfrac_CBM",0.24669334054277348,0.5928785999519656
+3,"radius_mean, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, E_sfrac_VBM, E_sfrac_CBM",0.40408226996742747,0.558980008428747
+3,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.11904911444636734,0.6328478326171335
+3,"max_Z4, pmid_afs_gauss_std, ehull","old_max_Z4, pmid_afs_gauss_std, old_ehull",0.3600178674515746,0.5518704109480886
+3,"max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.3681417390368449,0.554924484156599
+3,"max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.39250929302569304,0.5301867320802476
+3,"max_Z4, kpath_angle_deg, ehull","old_max_Z4, old_kpath_angle_deg, old_ehull",-0.03414516433142656,0.717666102375647
+3,"max_Z4, kpath_angle_deg, E_sfrac_VBM","old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.3376936566663755,0.5968712707962653
+3,"max_Z4, kpath_angle_deg, E_sfrac_CBM","old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.28159811815007774,0.6143964081870186
+3,"max_Z4, ehull, E_sfrac_VBM","old_max_Z4, old_ehull, E_sfrac_VBM",0.26875222754996175,0.6174420094201059
+3,"max_Z4, ehull, E_sfrac_CBM","old_max_Z4, old_ehull, E_sfrac_CBM",-0.0033721313045469437,0.6893889499433113
+3,"max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.3085785120586262,0.6096049233542549
+3,"pmid_afs_gauss_std, kpath_angle_deg, ehull","pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.46690895672073307,0.5151503749086399
+3,"pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.4162946781006469,0.5422494810133269
+3,"pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.27817389642625734,0.5831083998294792
+3,"pmid_afs_gauss_std, ehull, E_sfrac_VBM","pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5066610624211626,0.49789873390486755
+3,"pmid_afs_gauss_std, ehull, E_sfrac_CBM","pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5281668096257517,0.4713655599969806
+3,"pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.44322934015514204,0.5192749886753584
+3,"kpath_angle_deg, ehull, E_sfrac_VBM","old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.29870379278336034,0.592008281047898
+3,"kpath_angle_deg, ehull, E_sfrac_CBM","old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.10795810798959138,0.6526011457250576
+3,"kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.36699966069659806,0.5683929925591055
+3,"ehull, E_sfrac_VBM, E_sfrac_CBM","old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.3303700387726517,0.5909853645430672
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4",0.5217145223621997,0.49611432101028136
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std",0.5484078341061402,0.4796680982955779
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg",0.5646197739966042,0.49078813900128754
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_ehull",0.507578983792034,0.5096699653827783
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, E_sfrac_VBM",0.5272225481436328,0.4930760488317471
+4,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, E_sfrac_CBM",0.4931876389665698,0.493415673790556
+4,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std",0.5454468791693677,0.4612078154978127
+4,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg",0.4965505188342083,0.49622639116614764
+4,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_ehull",0.4283967711964065,0.5421741761968594
+4,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, E_sfrac_VBM",0.5163676908619629,0.4987172197284121
+4,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, E_sfrac_CBM",0.4430553992291315,0.4991881230527704
+4,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg",0.5647790948652542,0.4660389375782976
+4,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull",0.538125038217905,0.4784697262686912
+4,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM",0.5862702109611866,0.4594934182167054
+4,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_CBM",0.5569414188178828,0.4471550349225902
+4,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull",0.477934132335733,0.5067710393944173
+4,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_VBM",0.5483602883083971,0.48230425411282174
+4,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_CBM",0.5157495000027883,0.4838594072081826
+4,"E_pfrac_VBM, E_pfrac_CBM, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, E_sfrac_VBM",0.45491313802312505,0.518718262821737
+4,"E_pfrac_VBM, E_pfrac_CBM, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, E_sfrac_CBM",0.4321447980098915,0.5229445677237078
+4,"E_pfrac_VBM, E_pfrac_CBM, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, E_sfrac_VBM, E_sfrac_CBM",0.517285714967884,0.47974376209336106
+4,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std",0.3053182661878038,0.5822634276476774
+4,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg",0.3204830640068346,0.5916682132807646
+4,"E_pfrac_VBM, radius_mean, max_Z4, ehull","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_ehull",0.348701317174973,0.5696722754613318
+4,"E_pfrac_VBM, radius_mean, max_Z4, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, E_sfrac_VBM",0.38512722464843263,0.5670213413672014
+4,"E_pfrac_VBM, radius_mean, max_Z4, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, E_sfrac_CBM",0.4432203022172819,0.5207756245641998
+4,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg",0.3977715672722397,0.5423110029239847
+4,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_ehull",0.4634288253717773,0.5123664021588336
+4,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM",0.43182638858864153,0.5323199283859946
+4,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_CBM",0.5035719986656029,0.4859355018548291
+4,"E_pfrac_VBM, radius_mean, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, old_ehull",0.36309893723943676,0.5574261450334028
+4,"E_pfrac_VBM, radius_mean, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM",0.43504667200779557,0.5506644615838022
+4,"E_pfrac_VBM, radius_mean, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_CBM",0.4853104337640193,0.5231922191995564
+4,"E_pfrac_VBM, radius_mean, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_ehull, E_sfrac_VBM",0.40822099223986785,0.5516411359478729
+4,"E_pfrac_VBM, radius_mean, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_ehull, E_sfrac_CBM",0.3882456446037704,0.5527210290889547
+4,"E_pfrac_VBM, radius_mean, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, E_sfrac_VBM, E_sfrac_CBM",0.4811825251228359,0.516661827164467
+4,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.3410044671704072,0.5693027319715481
+4,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.40333658132583106,0.5464352740663471
+4,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.44660789281038826,0.5121268709982284
+4,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.47638127542967246,0.4856707233708314
+4,"E_pfrac_VBM, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, old_ehull",0.153726570744515,0.6403006866532143
+4,"E_pfrac_VBM, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.38284704198014397,0.5707033850929955
+4,"E_pfrac_VBM, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.320851252253321,0.5800314064603863
+4,"E_pfrac_VBM, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, old_ehull, E_sfrac_VBM",0.3616870046890961,0.5677301466826237
+4,"E_pfrac_VBM, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_ehull, E_sfrac_CBM",0.24308608345129068,0.6094078021482988
+4,"E_pfrac_VBM, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.3724224159759414,0.5626611461928397
+4,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.46018353206377394,0.49663414932501443
+4,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5213491013248173,0.48243806674263695
+4,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5906190501625409,0.4395945343200607
+4,"E_pfrac_VBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.4944625365671256,0.5028362584836555
+4,"E_pfrac_VBM, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5566116459198553,0.4606126708599052
+4,"E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5379313746226466,0.4704093802480987
+4,"E_pfrac_VBM, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.3883071916669376,0.5612000419298808
+4,"E_pfrac_VBM, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.2990097261596888,0.5861365336553015
+4,"E_pfrac_VBM, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.44793719108106034,0.5448171486421065
+4,"E_pfrac_VBM, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.36817434739174604,0.5679307098629499
+4,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std",0.514700876493961,0.47505844706236716
+4,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg",0.4004841224418495,0.560754979393699
+4,"E_pfrac_CBM, radius_mean, max_Z4, ehull","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull",0.3545699241811485,0.5545721220151343
+4,"E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_VBM",0.41317017569370873,0.5596995236608717
+4,"E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_CBM",0.27963355027092995,0.578838476214746
+4,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg",0.5299805139927565,0.47647040983643196
+4,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull",0.5434171710965255,0.47413208969674925
+4,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM",0.5412485269128045,0.4998727774668221
+4,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_CBM",0.5306490820336267,0.4838668444855044
+4,"E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull",0.40360953463270877,0.5487773469626301
+4,"E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM",0.4266410882915985,0.5604759985798538
+4,"E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_CBM",0.4814816623187921,0.513818081417469
+4,"E_pfrac_CBM, radius_mean, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_VBM",0.3630821626560202,0.5772857363199947
+4,"E_pfrac_CBM, radius_mean, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_CBM",0.37161091786367517,0.5489600266928624
+4,"E_pfrac_CBM, radius_mean, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, E_sfrac_VBM, E_sfrac_CBM",0.4132423875581669,0.5473545685296107
+4,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.4870548374203708,0.4755749961775963
+4,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.517624776963141,0.4737381348706255
+4,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.5625459353230435,0.46771707127311013
+4,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.5153585646705199,0.4740772637020457
+4,"E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull",0.304788539271301,0.5747840231259663
+4,"E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.40281057881845905,0.5470197121398618
+4,"E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.3378455556513109,0.5578879180291686
+4,"E_pfrac_CBM, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_VBM",0.34875117028549996,0.5765032696097788
+4,"E_pfrac_CBM, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_CBM",0.22212924081038932,0.6023019896854054
+4,"E_pfrac_CBM, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.34205546275262433,0.5814788975763803
+4,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.566393205399329,0.45566098546981804
+4,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5331895209065033,0.4874457933300673
+4,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5195256253466997,0.4783823117342862
+4,"E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5147312387626376,0.5139589521909
+4,"E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5603699380780358,0.46479737074206573
+4,"E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.4992220026706231,0.503537372810672
+4,"E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.4051052782957326,0.5471565560861067
+4,"E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.2956857921671344,0.5626449891437184
+4,"E_pfrac_CBM, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.43384361525096027,0.5465741290708985
+4,"E_pfrac_CBM, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.35414839487752636,0.5713731086422699
+4,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.1656655448428599,0.6160395300653245
+4,"radius_mean, max_Z4, pmid_afs_gauss_std, ehull","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.33626945626187377,0.5635318477274192
+4,"radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.34683866042092537,0.5689537117505316
+4,"radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.3682232966129293,0.5496871418374957
+4,"radius_mean, max_Z4, kpath_angle_deg, ehull","old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull",0.11761098017447558,0.671167508553977
+4,"radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.314719172296402,0.6109254937171936
+4,"radius_mean, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.3574527062695143,0.5705014159173677
+4,"radius_mean, max_Z4, ehull, E_sfrac_VBM","old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM",0.3443468831371509,0.5915438963475853
+4,"radius_mean, max_Z4, ehull, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_ehull, E_sfrac_CBM",0.20774903276474566,0.6171104941368103
+4,"radius_mean, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.3610929390457529,0.58193443453914
+4,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.38211602711287074,0.5473126121867786
+4,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.38268570774243793,0.5644587622700316
+4,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.35375877988381166,0.5558504217995538
+4,"radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.4884696782223601,0.5108088350681343
+4,"radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5002088745349449,0.49445860317981605
+4,"radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.42755101797150863,0.541343063865045
+4,"radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM","old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.36145155643396853,0.5978305582952017
+4,"radius_mean, kpath_angle_deg, ehull, E_sfrac_CBM","old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.26231574547454073,0.6054951038360595
+4,"radius_mean, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.4100549086922004,0.5650740820422316
+4,"radius_mean, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.36588433947827614,0.576125232282311
+4,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.3841919627150141,0.5330836498713253
+4,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.4314145802957474,0.5301372054755086
+4,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.44415591658105147,0.5193483117373303
+4,"max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.49925154769518365,0.49518929893801916
+4,"max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5130108432073268,0.4960115436014503
+4,"max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.4412990929625741,0.5266798539932329
+4,"max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.28788402983076844,0.6056573875359814
+4,"max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.17987040550901068,0.6311692912458169
+4,"max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.324213437510414,0.6023315850363837
+4,"max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.2376235328699019,0.6274874101792924
+4,"pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5068967858344529,0.49186751289078695
+4,"pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5290109323657606,0.47383488087702286
+4,"pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5359456788815831,0.4815908112092452
+4,"pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5025702766254184,0.500787226542078
+4,"kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.32327604955939937,0.585962747901377
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std",0.5521731931476915,0.4682158672881849
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg",0.5676351927163512,0.491510784688622
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull",0.4963487873254958,0.5157126684718663
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_VBM",0.5196563566840304,0.5042299611640699
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_CBM",0.4902879039933459,0.49476031175285873
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg",0.6187989070538901,0.4484022641711766
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull",0.5617066935283775,0.4692751691558144
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM",0.5580676948363619,0.47702330899961076
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_CBM",0.5577061454260244,0.4529559955693254
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull",0.5347700979688157,0.5047174397333705
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM",0.5512592751575027,0.4917357102066579
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_CBM",0.5714786642258798,0.4705213178769507
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_VBM",0.4659831628528843,0.5210571854427608
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_CBM",0.48428191748436966,0.5011197411171113
+5,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, E_sfrac_VBM, E_sfrac_CBM",0.5338408486051952,0.4707513069528522
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.593582984306934,0.43432380810169263
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.5129294166167222,0.4902916519714125
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.57802087887707,0.4557059478807931
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.5435857796413739,0.4417157244585981
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull",0.4674788173603853,0.5206015317512281
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.5292902701017601,0.5074683636270388
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.5045601444555916,0.48471256282594466
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_VBM",0.4574248453249561,0.5235551722699946
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_CBM",0.4047526590557633,0.5271280336187344
+5,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.5093754135588562,0.4896632772792469
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5814789245376358,0.45279540851862743
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.618045621764317,0.45114097061060904
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.603276764867543,0.4189964520425508
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5486497429833918,0.488949486939594
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5948016831806061,0.44946380035323324
+5,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5953674642815536,0.4377337525300305
+5,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5030520785062731,0.5103488961277587
+5,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.48235150223742385,0.5045220149887933
+5,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5462897516188494,0.4803060347239177
+5,"E_pfrac_VBM, E_pfrac_CBM, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4955821708591732,0.4986059762058836
+5,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.3809282275063368,0.5567466473772069
+5,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.45945524924036774,0.5202122462975859
+5,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.4402369924591164,0.5256802028501877
+5,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.5046401042642126,0.4824519742859735
+5,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull",0.3226628497757512,0.5855112472447481
+5,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.4028446392643522,0.5584918399820424
+5,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.47403755254672064,0.5239783229057235
+5,"E_pfrac_VBM, radius_mean, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM",0.39921590108345106,0.5597984051608076
+5,"E_pfrac_VBM, radius_mean, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_CBM",0.389254458014737,0.5542653589730311
+5,"E_pfrac_VBM, radius_mean, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.45783962131615863,0.5288071873356597
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5163209440474836,0.4805534129335423
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5251177416564984,0.49581348520336727
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.607082265653413,0.43942796927269057
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5064851744794847,0.5077251605794888
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5513125444825806,0.47233533922349563
+5,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5383389316976631,0.48393143361987484
+5,"E_pfrac_VBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.4207281524873563,0.5501680827526132
+5,"E_pfrac_VBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.45033790202959423,0.540408752735215
+5,"E_pfrac_VBM, radius_mean, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.46979310822947573,0.5361362564876827
+5,"E_pfrac_VBM, radius_mean, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4387878321249893,0.5436955251163906
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.45318062755370436,0.4942347439611801
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5496661648409303,0.4698972471651404
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5583200924271109,0.43985202001321205
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5212862640717886,0.484402288080466
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5415426407230806,0.4681107403726289
+5,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5231955340790954,0.4765524364818226
+5,"E_pfrac_VBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.3492466970579734,0.5728571749841325
+5,"E_pfrac_VBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.3057224613139321,0.5860941807862484
+5,"E_pfrac_VBM, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.4093305912545905,0.5388769437279366
+5,"E_pfrac_VBM, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.35177321965307173,0.5727464651098154
+5,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5744233532062397,0.45504253397084243
+5,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.6050463337787391,0.452937183712468
+5,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.573315604648485,0.4513288786965187
+5,"E_pfrac_VBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5462470662297978,0.47574678554920236
+5,"E_pfrac_VBM, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4183370130763344,0.5493517497717731
+5,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.5118539953263008,0.47830898934181293
+5,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.5287973497923466,0.47575476072292133
+5,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.5537860201793312,0.49047009160783556
+5,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.5376325575709046,0.46377713056525793
+5,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull",0.4522249818674837,0.5282086189058092
+5,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.4421890953658184,0.5474054265600262
+5,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.4728223826909195,0.5142344014138887
+5,"E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM",0.36929283577284744,0.566359407005888
+5,"E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_CBM",0.3137449534079303,0.5726726215584109
+5,"E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.4433622984104483,0.5386118222198102
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5881271366611035,0.44814564700078474
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5938666458116493,0.4644641875064735
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5755508948310711,0.45682825140519573
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5403665223889162,0.4976198026676371
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5739468315350817,0.4542310505298653
+5,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5367312516874989,0.488221270927275
+5,"E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.45970296131255606,0.5312995609081153
+5,"E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.4164890440746041,0.5413122181699733
+5,"E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.49082979180274966,0.5267921292613251
+5,"E_pfrac_CBM, radius_mean, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.3999104285953685,0.5427993009210836
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5421974457846487,0.4521413628693782
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5878243293112847,0.46099637424102946
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5423174699849903,0.4627072852982415
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5686058992998009,0.475740838532496
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5706560056069516,0.4547504423459371
+5,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5399846138355046,0.48492617088857326
+5,"E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.4301057891056377,0.5481792054657983
+5,"E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.2886898752293914,0.5690732460840784
+5,"E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.42778104558771535,0.5405335154677883
+5,"E_pfrac_CBM, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.33325578292539637,0.5743681229774398
+5,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.6003259022933374,0.4564425319469336
+5,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5699473443978397,0.4504323245973298
+5,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5731037974618796,0.45810004644682917
+5,"E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5332520048825005,0.4846750072951269
+5,"E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.45164818671576523,0.5415445755708097
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.39769270061153483,0.5305159201188521
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.44387705710770475,0.5357726579386779
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.4605483172181014,0.5149054407254613
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.46951850322636157,0.5156370172211618
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5116594869584611,0.500132129611391
+5,"radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.444449802190939,0.5355791203518105
+5,"radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.3818091576100019,0.5820193501048618
+5,"radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.25805554976028444,0.6056079636149936
+5,"radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.39940065332098607,0.572056430544516
+5,"radius_mean, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.34369310208197734,0.5904148391858496
+5,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5224116830380428,0.5029261148433493
+5,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5182216730857584,0.4864864950372714
+5,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5436921561636009,0.47665519071829443
+5,"radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.49069247985415054,0.5056634518160964
+5,"radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4148098144236795,0.5684777062685802
+5,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5342170162405371,0.4756679663272819
+5,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5145740625969732,0.48422778284188467
+5,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.49248360591216,0.5076551266150041
+5,"max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.48719670548289884,0.49770763326895356
+5,"max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.33142743551537046,0.5913430810745316
+5,"pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5306505380757659,0.48230059866471725
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg",0.5956246006697947,0.4567165994644165
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull",0.5839561755101775,0.4595858694086171
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM",0.5822798344035385,0.45940433743505776
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_CBM",0.5442725838793818,0.45721571917485715
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull",0.5503670498847819,0.48692463026143085
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM",0.5706377504704412,0.49912969606091273
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_CBM",0.5732865244641894,0.4688217864807206
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM",0.48918698062671084,0.5134825971824954
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_CBM",0.48452914154251947,0.5038609763829395
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, E_sfrac_VBM, E_sfrac_CBM",0.526427090375644,0.48847824473814533
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.6433827437194289,0.4286814847136988
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.6269116975836444,0.44954143461554946
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.6094183027079606,0.43825245079368047
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5874250637070262,0.4680613030424022
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.6002065688883127,0.4427151840913175
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5942895890859567,0.4405413621940998
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5216682796047862,0.5072601646991691
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5225667909566949,0.49360505713356867
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5697926713097622,0.4843404267532658
+6,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5043697515028986,0.4932849656451832
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5987237759632864,0.44099996022022137
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.6149863250437291,0.44865489832078576
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5860350622312214,0.4400518824596597
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5655551684003415,0.46216013896344893
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5758874443322388,0.44919125917222763
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5931591846409452,0.4403470749517885
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5102824826397762,0.5023547606179208
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.4769808301748928,0.49995685352460306
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5528031220011612,0.48075226107510655
+6,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.48874441985546013,0.502814319389035
+6,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5768937101560336,0.46105284294937604
+6,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.6039244896948448,0.43569449424743656
+6,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.6194255217992346,0.4277624871947549
+6,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5889243276603798,0.4447883891866665
+6,"E_pfrac_VBM, E_pfrac_CBM, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5558739369715533,0.47784933181724165
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.49584438040553047,0.4843237260423526
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.5114345608941174,0.49376799719743053
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5539445113581205,0.45935360141233966
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5029581399080435,0.5011827240231062
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5568514807199341,0.4632785785270459
+6,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5076555839791204,0.4957568776053612
+6,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.40862114044873,0.5549622502471462
+6,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.4537244736498305,0.5274512234745604
+6,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.4660548748494191,0.5375599229070875
+6,"E_pfrac_VBM, radius_mean, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4351741442873701,0.540733951428924
+6,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5343195686161484,0.4811526901938699
+6,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5736758729469158,0.4627513949702485
+6,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5599163721418124,0.4743862649840539
+6,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5206232455013895,0.48462265531944515
+6,"E_pfrac_VBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.47643382510918686,0.53373716631321
+6,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5559876484199361,0.4484655164275507
+6,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5665230507895926,0.45690414785134675
+6,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5670110083501012,0.4547918693224589
+6,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5145053320523436,0.4789845090056911
+6,"E_pfrac_VBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.38027223326669746,0.5576652312278748
+6,"E_pfrac_VBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5636218618686923,0.4573730594702441
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.5831211270754169,0.4471658810124252
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.6012719990785831,0.4631566037505564
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.5565880683535698,0.469234068364808
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5522362017257697,0.4814311029260809
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5437204082772391,0.4778480152746643
+6,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5326089478640013,0.48794117286470196
+6,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.4734126702868463,0.5353186132546627
+6,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.4131563733976583,0.536772930246411
+6,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.4917889525189276,0.5227198279602359
+6,"E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4105081152765334,0.5460350181309864
+6,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5960849251027532,0.464552748906492
+6,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5777385190836257,0.45064616355992326
+6,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5951769748000012,0.4468986313415296
+6,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5665849954270227,0.470795652476224
+6,"E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.48805323137944023,0.523586226472951
+6,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.6159895347384251,0.44430334359467627
+6,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5606007620846607,0.4625540608878087
+6,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5633157868045122,0.4655716776992336
+6,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5743280681562006,0.46456514015101424
+6,"E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.43540652501609456,0.5408723042613328
+6,"E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5963878023647942,0.45436058301155013
+6,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.4700969085895288,0.5076531414985657
+6,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.47550770235648554,0.5015280534185544
+6,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.48977403114614637,0.5068805600175954
+6,"radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.48181213851967486,0.5062699385170985
+6,"radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.3729752366439374,0.5905162795866379
+6,"radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5259439884830922,0.4903931425412496
+6,"max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5230954344064594,0.4860713247674884
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull",0.6319829843618567,0.42835620514070144
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM",0.6284932356643662,0.44692654299976853
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_CBM",0.6073804313822433,0.4329351704144719
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM",0.5654374831251913,0.4688185479038894
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_CBM",0.5675960309914669,0.4396948930663292
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, E_sfrac_VBM, E_sfrac_CBM",0.5562835935162576,0.4620247165699198
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5096567470389843,0.506368539275545
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5129285647440974,0.49863404815365564
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5470496558201117,0.4913482537414089
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4793831627284044,0.5096661540041065
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.6128446373920259,0.4471697021638504
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.6213863450039132,0.4266279021802575
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.615718025588264,0.4330142656962077
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5849568465630435,0.44803612518310554
+7,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.531980535984703,0.502414976828026
+7,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.6090224198053815,0.4416602189805773
+7,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.6100749505618759,0.4293846003840668
+7,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.6148000641555452,0.4321949361936011
+7,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5873841747829285,0.4467495154130339
+7,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5289911572840125,0.49658742376288983
+7,"E_pfrac_VBM, E_pfrac_CBM, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.622646678895582,0.4336622214847141
+7,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5609037981526944,0.4638717739220822
+7,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5913114491806943,0.4555624645743707
+7,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5822996881164627,0.4648360249345953
+7,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5013581638639816,0.5052941644071329
+7,"E_pfrac_VBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.43062966072126896,0.5592127494185863
+7,"E_pfrac_VBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5905277327153434,0.46123555369810626
+7,"E_pfrac_VBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5708430561325606,0.45963405287867853
+7,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.5741027125424085,0.4665089666723001
+7,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.5663258456113767,0.448103546787994
+7,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.5912806313148152,0.4594771269595985
+7,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5447151975296722,0.4873505779564983
+7,"E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.4484328273867302,0.5441164415821884
+7,"E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5894004384393986,0.4600004857284855
+7,"E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.6071574535319754,0.4473499774258546
+7,"radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5542738929502484,0.4828855852888088
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM",0.6300818930632746,0.43853080244256987
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_CBM",0.6069312358075878,0.42969717774246674
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, E_sfrac_VBM, E_sfrac_CBM",0.6124077061480728,0.444491606726791
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5750539743986903,0.4612418115837405
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5109675277053207,0.5222229325939911
+8,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.6176217018441255,0.4439967725830849
+8,"E_pfrac_VBM, E_pfrac_CBM, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.6118288813683421,0.4370576141627149
+8,"E_pfrac_VBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5591474810550523,0.469242070708612
+8,"E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5892277901318148,0.4608878803638497
+9,"E_pfrac_VBM, E_pfrac_CBM, radius_mean, max_Z4, pmid_afs_gauss_std, kpath_angle_deg, ehull, E_sfrac_VBM, E_sfrac_CBM","old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, old_max_Z4, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, E_sfrac_VBM, E_sfrac_CBM",0.5895500521781549,0.45526736144826874
