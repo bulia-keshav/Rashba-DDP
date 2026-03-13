@@ -1,0 +1,6 @@
+iteration,n_features,added_feature,selected_features,loo_r2,loo_mae,improvement
+0,0,BASELINE,[],0.29451071584682276,0.5800374935082716,0.0
+1,1,pmid_afs_gauss_std,['pmid_afs_gauss_std'],0.35946424020651757,0.5528183054346028,0.06495352435969481
+2,2,old_ehull,"['pmid_afs_gauss_std', 'old_ehull']",0.5501617364240934,0.4575173433862552,0.1906974962175758
+3,3,old_E_pfrac_CBM,"['pmid_afs_gauss_std', 'old_ehull', 'old_E_pfrac_CBM']",0.5739506417617972,0.4391934642069268,0.023788905337703836
+4,4,old_E_pfrac_VBM,"['pmid_afs_gauss_std', 'old_ehull', 'old_E_pfrac_CBM', 'old_E_pfrac_VBM']",0.5779224110786134,0.42806546888929425,0.003971769316816198
