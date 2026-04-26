@@ -1,0 +1,4 @@
+phase,r2,delta_r2,extras,n_features
+Phase A (C6 + 1),0.6402058155698742,-0.0031769281495547252,el_Rpp_d_max,7
+Phase B (C6 + 2),0.6422361586902787,-0.0011465850291502155,el_Rpp_d_max + el_Rpp_d_range,8
+Phase C (C6 + 3),0.6305338321225036,-0.012848911596925361,el_Rpp_d_max + el_Rpp_d_range + el_EA_std,9
