@@ -1,0 +1,10 @@
+# Analytical descriptors found by lightweight SISSO
+
+1D: R2 = 0.1531
+    alpha_R ~ ((old_E_pfrac_VBM - old_E_pfrac_CBM) / (old_E_pfrac_VBM / old_E_pfrac_CBM))
+
+2D: R2 = 0.1892
+    Features: ['((old_E_pfrac_VBM - old_E_pfrac_CBM) / (old_E_pfrac_VBM / old_E_pfrac_CBM))', '(1/(old_radius_mean) / (old_E_pfrac_VBM + pmid_afs_gauss_std))']
+
+3D: R2 = 0.1891
+    Features: ['((old_E_pfrac_VBM - old_E_pfrac_CBM) / (old_E_pfrac_VBM / old_E_pfrac_CBM))', '(1/(old_radius_mean) / (old_E_pfrac_VBM + pmid_afs_gauss_std))', '((old_E_pfrac_VBM * old_ehull) + sqrt(old_radius_mean))']
