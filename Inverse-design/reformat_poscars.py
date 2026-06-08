@@ -20,7 +20,7 @@ import glob
 # =============================================================================
 # CONFIG -- change this if you run from a different location
 # =============================================================================
-RASHBA_DIR = os.path.join(".", "rashba")
+RASHBA_DIR = os.path.join(".", "unmatched")
 OUTPUT_NAME = "POSCAR_std"  # name of the reformatted file
 
 # =============================================================================

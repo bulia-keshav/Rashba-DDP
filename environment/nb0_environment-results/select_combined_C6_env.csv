@@ -1,0 +1,9 @@
+n,cv_r2,loo_r2,loo_mae,features
+3,0.608,0.602,0.459,"old_E_pfrac_CBM, pmid_afs_gauss_std, grdf_gauss_5.0_mean"
+4,0.59,0.575,0.466,"old_E_pfrac_CBM, old_radius_mean, grdf_gauss_3.8_std, grdf_gauss_5.0_mean"
+5,0.626,0.577,0.467,"old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, grdf_gauss_5.0_mean"
+6,0.619,0.592,0.458,"old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, grdf_gauss_3.8_std, grdf_gauss_5.0_mean"
+7,0.616,0.629,0.444,"old_E_pfrac_VBM, old_E_pfrac_CBM, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, grdf_gauss_3.8_std, grdf_gauss_5.0_mean"
+8,0.626,0.553,0.47,"old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean"
+9,0.626,0.608,0.447,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean"
+10,0.62,0.597,0.459,"old_E_pfrac_VBM, old_E_pfrac_CBM, old_radius_mean, pmid_afs_gauss_std, old_kpath_angle_deg, old_ehull, grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean, grdf_gauss_2.0_std"

@@ -1,0 +1,6 @@
+n,cv_r2,loo_r2,loo_mae,features
+1,0.218,0.182,0.642,grdf_bessel_n1_std
+2,0.394,0.29,0.608,"grdf_gauss_3.8_std, grdf_gauss_5.0_mean"
+3,0.431,0.31,0.593,"grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean"
+4,0.429,0.365,0.556,"grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean, afs_m3_mean"
+5,0.46,0.353,0.568,"grdf_gauss_3.8_std, grdf_gauss_5.0_mean, bond_mean, afs_m3_mean, grdf_gauss_2.0_std"
