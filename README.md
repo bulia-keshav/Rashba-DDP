@@ -1,7 +1,6 @@
 # Predicting Rashba splitting in 2D materials with ML
 
 Dual Degree Project, IIT Bombay (2025–26)
-Guide: Prof. Amrita Bhattacharya, Department of Metallurgical Engineering and Materials Science
 
 Thesis: [`docs/DDP_thesis.pdf`](docs/DDP_thesis.pdf) · Slides: [`docs/DDP_stage2_slides.pdf`](docs/DDP_stage2_slides.pdf)
 
