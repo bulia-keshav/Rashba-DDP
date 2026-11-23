@@ -1,0 +1,180 @@
+
+<h2 class="sr-only">Rashba/Dresselhaus presence classifier — error analysis for 200 2D compounds</h2>
+
+<div style="font-family:var(--font-sans);padding:0 0 2rem">
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:1.5rem">
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px 16px">
+    <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:4px">Accuracy</div>
+    <div style="font-size:22px;font-weight:500;color:var(--color-text-primary)">91.0%</div>
+    <div style="font-size:11px;color:var(--color-text-secondary)">182 / 200 correct</div>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px 16px">
+    <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:4px">Presence AUC (LOO)</div>
+    <div style="font-size:22px;font-weight:500;color:var(--color-text-primary)">0.972</div>
+    <div style="font-size:11px;color:var(--color-text-secondary)">split vs non-split</div>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px 16px">
+    <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:4px">False negatives</div>
+    <div style="font-size:22px;font-weight:500;color:#e24b4a">11</div>
+    <div style="font-size:11px;color:var(--color-text-secondary)">real splitters missed</div>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px 16px">
+    <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:4px">False positives</div>
+    <div style="font-size:22px;font-weight:500;color:#ba7517">7</div>
+    <div style="font-size:11px;color:var(--color-text-secondary)">non-splitters called split</div>
+  </div>
+</div>
+
+<div style="font-size:13px;font-weight:500;color:var(--color-text-secondary);margin-bottom:6px">Decision landscape — all 200 compounds (x = true α, y = p̂(split), threshold at 0.5)</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px;font-size:12px;color:var(--color-text-secondary)">
+  <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle"></span>True positive (113)</span>
+  <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#94a3b8;margin-right:4px;vertical-align:middle"></span>True negative (69)</span>
+  <span><span style="display:inline-block;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:9px solid #e24b4a;margin-right:4px;vertical-align:middle"></span>False negative (11) — labelled</span>
+  <span><span style="display:inline-block;width:9px;height:9px;background:#f97316;transform:rotate(45deg);margin-right:7px;vertical-align:middle"></span>False positive (7)</span>
+</div>
+
+<div style="position:relative;height:360px;margin-bottom:1.5rem">
+  <canvas id="sc" role="img" aria-label="Scatter of alpha (x, 0-5) vs split probability (y, 0-1) for 200 compounds. True positives in green cluster upper-right. 11 false negatives (red triangles) lie below the 0.5 threshold despite having positive alpha. 7 false positives (orange diamonds) sit above threshold at alpha=0.">True positives cluster upper-right; false negatives appear below threshold despite non-zero alpha; false positives above threshold at alpha=0.</canvas>
+</div>
+
+<div id="fn-wrap" style="margin-bottom:1.5rem"></div>
+<div id="fp-wrap" style="margin-bottom:1.5rem"></div>
+<div id="pat-wrap"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const D=[{"f":"In2Br6","s":"u","a":0.0,"p":0.007,"o":"TN","z":49},{"f":"Tl2Br6","s":"u","a":0.0,"p":0.008,"o":"TN","z":81},{"f":"Se2Si2","s":"u","a":0.0,"p":0.009,"o":"TN","z":34},{"f":"Tl2Cl6","s":"u","a":0.0,"p":0.009,"o":"TN","z":81},{"f":"Al2Cl6","s":"u","a":0.0,"p":0.014,"o":"TN","z":17},{"f":"Y2Br6","s":"u","a":0.0,"p":0.015,"o":"TN","z":39},{"f":"Sc2I6","s":"u","a":0.0,"p":0.017,"o":"TN","z":53},{"f":"Sc2Br6","s":"u","a":0.0,"p":0.017,"o":"TN","z":35},{"f":"Te2Tl2","s":"u","a":0.0,"p":0.018,"o":"TN","z":81},{"f":"Y2Cl6","s":"u","a":0.0,"p":0.021,"o":"TN","z":39},{"f":"P2Zr2S6","s":"u","a":0.0,"p":0.021,"o":"TN","z":40},{"f":"S2Sn2","s":"u","a":0.0,"p":0.021,"o":"TN","z":50},{"f":"Bi2Cl6","s":"u","a":0.0,"p":0.022,"o":"TN","z":83},{"f":"Cu2S2","s":"u","a":0.0,"p":0.022,"o":"TN","z":29},{"f":"Y2I6","s":"u","a":0.0,"p":0.023,"o":"TN","z":53},{"f":"In2Cl6","s":"u","a":0.0,"p":0.023,"o":"TN","z":49},{"f":"Bi2Br6","s":"u","a":0.0,"p":0.025,"o":"TN","z":83},{"f":"Ga2Br6","s":"u","a":0.0,"p":0.025,"o":"TN","z":35},{"f":"Al2Br6","s":"u","a":0.0,"p":0.029,"o":"TN","z":35},{"f":"In2I6","s":"u","a":0.0,"p":0.03,"o":"TN","z":53},{"f":"Se2Tl2","s":"u","a":0.0,"p":0.03,"o":"TN","z":81},{"f":"AlN","s":"u","a":0.0,"p":0.032,"o":"TN","z":13},{"f":"In2Te2","s":"u","a":0.0,"p":0.033,"o":"TN","z":52},{"f":"Cd2P2S6","s":"u","a":0.0,"p":0.04,"o":"TN","z":48},{"f":"CaF2","s":"u","a":0.0,"p":0.04,"o":"TN","z":20},{"f":"Ag2Te2","s":"u","a":0.0,"p":0.042,"o":"TN","z":52},{"f":"Pb2Se2","s":"u","a":0.0,"p":0.042,"o":"TN","z":82},{"f":"Tl2I6","s":"u","a":0.0,"p":0.042,"o":"TN","z":81},{"f":"Sc2Cl6","s":"u","a":0.0,"p":0.044,"o":"TN","z":21},{"f":"HgF2","s":"d","a":0.85,"p":0.044,"o":"FN","z":80},{"f":"Pb2S2","s":"u","a":0.0,"p":0.045,"o":"TN","z":82},{"f":"Cl2In2","s":"u","a":0.0,"p":0.049,"o":"TN","z":49},{"f":"S2Tl2","s":"u","a":0.0,"p":0.049,"o":"TN","z":81},{"f":"Br2S2Tl2","s":"u","a":0.0,"p":0.049,"o":"TN","z":81},{"f":"Fe2P2S6","s":"u","a":0.0,"p":0.05,"o":"TN","z":26},{"f":"Au2Te2","s":"u","a":0.0,"p":0.05,"o":"TN","z":79},{"f":"P2Rh2Te6","s":"u","a":0.0,"p":0.051,"o":"TN","z":52},{"f":"BP","s":"u","a":0.0,"p":0.053,"o":"TN","z":15},{"f":"Ag2Se2","s":"u","a":0.0,"p":0.055,"o":"TN","z":47},{"f":"Cd2Te2","s":"u","a":0.0,"p":0.062,"o":"TN","z":52},{"f":"SrCl2","s":"u","a":0.0,"p":0.064,"o":"TN","z":38},{"f":"P2Ru2Te6","s":"u","a":0.0,"p":0.067,"o":"TN","z":52},{"f":"BaI2","s":"u","a":0.0,"p":0.068,"o":"TN","z":56},{"f":"Re2I6","s":"u","a":0.0,"p":0.071,"o":"TN","z":75},{"f":"P2Sn2S6","s":"u","a":0.0,"p":0.075,"o":"TN","z":50},{"f":"Ir2P2S6","s":"u","a":0.0,"p":0.079,"o":"TN","z":77},{"f":"BN","s":"u","a":0.0,"p":0.08,"o":"TN","z":7},{"f":"ZnF2","s":"u","a":0.0,"p":0.082,"o":"TN","z":30},{"f":"Cd2P2Se6","s":"u","a":0.0,"p":0.09,"o":"TN","z":48},{"f":"Se2Sn2","s":"u","a":0.0,"p":0.09,"o":"TN","z":50},{"f":"Cd2Se2","s":"u","a":0.0,"p":0.093,"o":"TN","z":48},{"f":"Sn2Te2","s":"u","a":0.0,"p":0.096,"o":"TN","z":50},{"f":"P2Sn2Te6","s":"u","a":0.0,"p":0.098,"o":"TN","z":52},{"f":"Ge2P2Se6","s":"u","a":0.0,"p":0.099,"o":"TN","z":34},{"f":"P2Pb2Te6","s":"u","a":0.0,"p":0.116,"o":"TN","z":82},{"f":"GeSe","s":"r","a":0.94,"p":0.12,"o":"FN","z":34},{"f":"Nb2P2S6","s":"u","a":0.0,"p":0.139,"o":"TN","z":41},{"f":"CaCl2","s":"u","a":0.0,"p":0.151,"o":"TN","z":20},{"f":"P2Pt2Se6","s":"u","a":0.0,"p":0.16,"o":"TN","z":78},{"f":"FeF2","s":"u","a":0.0,"p":0.161,"o":"TN","z":26},{"f":"HfO2","s":"d","a":0.703,"p":0.168,"o":"FN","z":72},{"f":"CaBr2","s":"d","a":0.376,"p":0.211,"o":"FN","z":35},{"f":"P2Pb2Se6","s":"u","a":0.0,"p":0.22,"o":"TN","z":82},{"f":"Ir2P2Se6","s":"u","a":0.0,"p":0.221,"o":"TN","z":77},{"f":"Cu2I2","s":"u","a":0.0,"p":0.221,"o":"TN","z":53},{"f":"Cd2Se4","s":"u","a":0.0,"p":0.24,"o":"TN","z":48},{"f":"P2Rh2Se6","s":"u","a":0.0,"p":0.262,"o":"TN","z":45},{"f":"SnF2","s":"u","a":0.0,"p":0.267,"o":"TN","z":50},{"f":"HgI2","s":"d","a":0.311,"p":0.288,"o":"FN","z":80},{"f":"Ga2P2Te6","s":"r","a":3.828,"p":0.315,"o":"FN","z":52},{"f":"TiS2","s":"u","a":0.0,"p":0.375,"o":"TN","z":22},{"f":"AsClSe","s":"r","a":3.717,"p":0.376,"o":"FN","z":34},{"f":"Re2Cl6","s":"u","a":0.0,"p":0.394,"o":"TN","z":75},{"f":"Bi2I6","s":"u","a":0.0,"p":0.409,"o":"TN","z":83},{"f":"Ir2P2Te6","s":"u","a":0.0,"p":0.417,"o":"TN","z":77},{"f":"ZrS2","s":"d","a":2.008,"p":0.418,"o":"FN","z":40},{"f":"Bi2P2S6","s":"r","a":1.406,"p":0.442,"o":"FN","z":83},{"f":"Bi2Se2","s":"u","a":0.0,"p":0.443,"o":"TN","z":83},{"f":"HgTe","s":"r","a":0.618,"p":0.486,"o":"FN","z":80},{"f":"P2Sb2Te6","s":"r","a":2.596,"p":0.5,"o":"FN","z":52},{"f":"Pb2Te6","s":"r","a":3.064,"p":0.517,"o":"TP","z":82},{"f":"Bi2Te2","s":"u","a":0.0,"p":0.526,"o":"FP","z":83},{"f":"AsBrS","s":"r","a":3.109,"p":0.542,"o":"TP","z":35},{"f":"STeW","s":"r","a":3.622,"p":0.633,"o":"TP","z":74},{"f":"Te2Ti2","s":"u","a":0.0,"p":0.688,"o":"FP","z":52},{"f":"GeTe","s":"r","a":0.952,"p":0.689,"o":"TP","z":52},{"f":"HfTe2","s":"d","a":1.458,"p":0.693,"o":"TP","z":72},{"f":"PbTe2","s":"d","a":2.615,"p":0.694,"o":"TP","z":82},{"f":"Bi2P2Te6","s":"r","a":1.814,"p":0.695,"o":"TP","z":83},{"f":"Ir2O2","s":"d","a":4.665,"p":0.713,"o":"TP","z":77},{"f":"SnTe","s":"r","a":0.806,"p":0.739,"o":"TP","z":52},{"f":"HfO2","s":"d","a":1.614,"p":0.743,"o":"TP","z":72},{"f":"HgBr2","s":"u","a":0.0,"p":0.744,"o":"FP","z":80},{"f":"SeSn","s":"r","a":0.873,"p":0.749,"o":"TP","z":50},{"f":"Ir2S2","s":"d","a":2.202,"p":0.778,"o":"TP","z":77},{"f":"CrMo3S8","s":"r","a":1.46,"p":0.787,"o":"TP","z":42},{"f":"SrBr2","s":"d","a":0.244,"p":0.788,"o":"TP","z":38},{"f":"Cr2Mo2S8","s":"r","a":1.344,"p":0.794,"o":"TP","z":42},{"f":"W2Cl6","s":"u","a":0.0,"p":0.797,"o":"FP","z":74},{"f":"MoCr3S8","s":"r","a":1.221,"p":0.8,"o":"TP","z":42},{"f":"WCr3S8","s":"r","a":1.317,"p":0.812,"o":"TP","z":74},{"f":"PbS","s":"r","a":1.241,"p":0.834,"o":"TP","z":82},{"f":"OsCl2","s":"d","a":3.244,"p":0.835,"o":"TP","z":76},{"f":"O2Rh2","s":"d","a":4.914,"p":0.841,"o":"TP","z":45},{"f":"P2Ta2Se6","s":"u","a":0.0,"p":0.847,"o":"FP","z":73},{"f":"P2Pb2S6","s":"u","a":0.0,"p":0.853,"o":"FP","z":82},{"f":"Ge2P2Te6","s":"u","a":0.0,"p":0.854,"o":"FP","z":52},{"f":"MoSTe","s":"r","a":2.525,"p":0.857,"o":"TP","z":52},{"f":"ZrSe2","s":"d","a":1.998,"p":0.858,"o":"TP","z":40},{"f":"OsBr2","s":"d","a":4.625,"p":0.875,"o":"TP","z":76},{"f":"MoW3S8","s":"r","a":2.241,"p":0.893,"o":"TP","z":74},{"f":"Mo2W2S8","s":"r","a":1.954,"p":0.897,"o":"TP","z":74},{"f":"Hf2Zr2Se8","s":"r","a":0.698,"p":0.899,"o":"TP","z":72},{"f":"Mo2W2Te8","s":"r","a":1.645,"p":0.902,"o":"TP","z":74},{"f":"Cr2W2S8","s":"r","a":1.592,"p":0.903,"o":"TP","z":74},{"f":"HfZr3Se8","s":"r","a":0.95,"p":0.904,"o":"TP","z":72},{"f":"S2Sn2b","s":"r","a":4.469,"p":0.904,"o":"TP","z":50},{"f":"BrSSb","s":"r","a":2.39,"p":0.906,"o":"TP","z":51},{"f":"MoW3Te8","s":"r","a":2.045,"p":0.914,"o":"TP","z":74},{"f":"TiZr3Te8","s":"r","a":1.679,"p":0.915,"o":"TP","z":52},{"f":"CrW3Te8","s":"r","a":1.592,"p":0.916,"o":"TP","z":74},{"f":"WMo3Te8","s":"r","a":1.501,"p":0.918,"o":"TP","z":74},{"f":"P2Sb2Se6","s":"r","a":2.546,"p":0.92,"o":"TP","z":51},{"f":"BiClS","s":"r","a":0.461,"p":0.923,"o":"TP","z":83},{"f":"TiHf3Te8","s":"r","a":1.512,"p":0.924,"o":"TP","z":72},{"f":"PbSe","s":"r","a":1.603,"p":0.924,"o":"TP","z":82},{"f":"HfSe2","s":"d","a":3.599,"p":0.926,"o":"TP","z":72},{"f":"Ti2Zr2Te8","s":"r","a":1.855,"p":0.927,"o":"TP","z":52},{"f":"AsClTe","s":"r","a":0.634,"p":0.932,"o":"TP","z":52},{"f":"PbF2","s":"d","a":2.465,"p":0.934,"o":"TP","z":82},{"f":"O2Pb2","s":"r","a":1.914,"p":0.934,"o":"TP","z":82},{"f":"HfS2","s":"d","a":2.471,"p":0.941,"o":"TP","z":72},{"f":"ClSbSe","s":"r","a":2.682,"p":0.941,"o":"TP","z":51},{"f":"ZrHf3Se8","s":"r","a":0.725,"p":0.942,"o":"TP","z":72},{"f":"PbTe","s":"r","a":2.18,"p":0.943,"o":"TP","z":82},{"f":"ClSbTe","s":"r","a":2.891,"p":0.944,"o":"TP","z":52},{"f":"Cr2W2Te8","s":"r","a":1.535,"p":0.947,"o":"TP","z":74},{"f":"BiITe","s":"r","a":0.467,"p":0.947,"o":"TP","z":83},{"f":"Ti2Zr2Se8","s":"r","a":1.767,"p":0.948,"o":"TP","z":40},{"f":"GeBr2","s":"d","a":2.998,"p":0.949,"o":"TP","z":35},{"f":"AsBrTe","s":"r","a":0.694,"p":0.949,"o":"TP","z":52},{"f":"ClSbSe","s":"r","a":1.483,"p":0.95,"o":"TP","z":51},{"f":"PbI2","s":"d","a":1.534,"p":0.95,"o":"TP","z":82},{"f":"PbCl2","s":"d","a":1.036,"p":0.95,"o":"TP","z":82},{"f":"BiIS","s":"r","a":1.858,"p":0.951,"o":"TP","z":83},{"f":"WCr3Te8","s":"r","a":0.99,"p":0.952,"o":"TP","z":74},{"f":"BiClTe","s":"r","a":1.175,"p":0.952,"o":"TP","z":83},{"f":"BiBrTe","s":"r","a":0.498,"p":0.952,"o":"TP","z":83},{"f":"PbBr2","s":"d","a":1.684,"p":0.952,"o":"TP","z":82},{"f":"CrW3S8","s":"r","a":1.909,"p":0.953,"o":"TP","z":74},{"f":"SnBr2","s":"d","a":1.316,"p":0.954,"o":"TP","z":50},{"f":"BiISe","s":"r","a":1.255,"p":0.954,"o":"TP","z":83},{"f":"TiZr3Se8","s":"r","a":1.321,"p":0.954,"o":"TP","z":40},{"f":"ZrTi3Se8","s":"r","a":1.091,"p":0.954,"o":"TP","z":40},{"f":"SSeW","s":"r","a":3.288,"p":0.955,"o":"TP","z":74},{"f":"HfTi3Se8","s":"r","a":1.191,"p":0.955,"o":"TP","z":72},{"f":"GeI2","s":"d","a":3.425,"p":0.956,"o":"TP","z":53},{"f":"BiClSe","s":"r","a":0.746,"p":0.957,"o":"TP","z":83},{"f":"Hf2Ti2Se8","s":"r","a":1.409,"p":0.958,"o":"TP","z":72},{"f":"BiClTe","s":"r","a":1.458,"p":0.959,"o":"TP","z":83},{"f":"BiBrS","s":"r","a":1.293,"p":0.959,"o":"TP","z":83},{"f":"Cr2Mo2Te8","s":"r","a":1.105,"p":0.96,"o":"TP","z":52},{"f":"AsISe","s":"r","a":1.626,"p":0.961,"o":"TP","z":53},{"f":"TiHf3Se8","s":"r","a":1.256,"p":0.962,"o":"TP","z":72},{"f":"ISSb","s":"r","a":2.844,"p":0.963,"o":"TP","z":53},{"f":"BiBrSe","s":"r","a":0.393,"p":0.964,"o":"TP","z":83},{"f":"SnI2","s":"d","a":3.076,"p":0.964,"o":"TP","z":53},{"f":"AsIS","s":"r","a":2.033,"p":0.965,"o":"TP","z":53},{"f":"BrSbTe","s":"r","a":1.315,"p":0.966,"o":"TP","z":52},{"f":"AsClTe","s":"r","a":2.895,"p":0.967,"o":"TP","z":52},{"f":"BiBrSe","s":"r","a":2.784,"p":0.969,"o":"TP","z":83},{"f":"BiISe","s":"r","a":2.089,"p":0.969,"o":"TP","z":83},{"f":"ISbSe","s":"r","a":2.431,"p":0.969,"o":"TP","z":53},{"f":"ClSbTe","s":"r","a":1.018,"p":0.97,"o":"TP","z":52},{"f":"ISSb","s":"r","a":0.907,"p":0.972,"o":"TP","z":53},{"f":"WMo3Se8","s":"r","a":1.643,"p":0.973,"o":"TP","z":74},{"f":"BiIS","s":"r","a":1.254,"p":0.973,"o":"TP","z":83},{"f":"Cr2W2Se8","s":"r","a":1.39,"p":0.973,"o":"TP","z":74},{"f":"SeTeW","s":"r","a":1.394,"p":0.974,"o":"TP","z":74},{"f":"STeW","s":"r","a":3.947,"p":0.974,"o":"TP","z":74},{"f":"Sn2Te2","s":"r","a":4.804,"p":0.975,"o":"TP","z":52},{"f":"MoW3Se8","s":"r","a":2.097,"p":0.976,"o":"TP","z":74},{"f":"BiBrTe","s":"r","a":1.13,"p":0.976,"o":"TP","z":83},{"f":"Mo2W2Se8","s":"r","a":1.784,"p":0.976,"o":"TP","z":74},{"f":"BiITe","s":"r","a":2.086,"p":0.976,"o":"TP","z":83},{"f":"Cr2Mo2Se8","s":"r","a":1.173,"p":0.977,"o":"TP","z":42},{"f":"MoCr3Se8","s":"r","a":0.977,"p":0.979,"o":"TP","z":42},{"f":"CrMo3Se8","s":"r","a":1.311,"p":0.979,"o":"TP","z":42},{"f":"CrW3Se8","s":"r","a":1.756,"p":0.98,"o":"TP","z":74},{"f":"AsITe","s":"r","a":0.579,"p":0.981,"o":"TP","z":53},{"f":"ISbTe","s":"r","a":3.658,"p":0.981,"o":"TP","z":53},{"f":"ISbSe","s":"r","a":1.17,"p":0.981,"o":"TP","z":53},{"f":"WCr3Se8","s":"r","a":1.16,"p":0.983,"o":"TP","z":74}];
+
+const FN=[
+  {f:'Ga2P2Te6',s:'r',a:3.828,p:0.315,note:'Strongest Rashba in dataset (α=3.83). Model predicts its near-twin Ge₂P₂Te₆ (p=0.854) as splitter instead — a one-atom Ga→Ge swap completely flips the output.'},
+  {f:'AsClSe',s:'r',a:3.717,p:0.376,note:'Strong Rashba (α=3.72). Mixed pnictogen + halide + chalcogenide; low mean Z≈28. Light-atom mixtures are systematically underpredicted.'},
+  {f:'P2Sb2Te6',s:'r',a:2.596,p:0.500,note:'Right at the decision boundary (p=0.500). Sister compound P₂Sb₂Se₆ (α≈2.55, same class) scores p=0.920. A Te→Se substitution cuts confidence by 0.42.'},
+  {f:'ZrS2',s:'d',a:2.008,p:0.418,note:'Strong Dresselhaus (α=2.01). ZrSe₂ is TP (p=0.858): the S(Z=16) anion is lighter than Se(Z=34) and drops the prediction below threshold.'},
+  {f:'Bi2P2S6',s:'r',a:1.406,p:0.442,note:'High Z-ratio: Bi(83) paired with P(15) and S(16). Very heavy cation + very light ligands gives low mean_Z, masking Bi\'s dominant SOC.'},
+  {f:'GeSe',s:'r',a:0.940,p:0.120,note:'Lightest compound in the error set (sum_Z=66). Rashba arises from a buckled-layer geometry — no structural template for light two-element Rashba was learned.'},
+  {f:'HgF2',s:'d',a:0.850,p:0.044,note:'p=0.044 — model almost certain it won\'t split. F(Z=9) drags sum_Z to 98. All 4 Hg compounds in the dataset are misclassified (systematic failure).'},
+  {f:'HfO2',s:'d',a:0.703,p:0.168,note:'Oxide ≠ dichalcogenide. HfSe₂ (p=0.926) and HfS₂ (p=0.941) are both TP. The O(Z=8) anion and very different 2D structure break the learned pattern. (A second HfO₂ polymorph at α=1.61 is correctly TP.)'},
+  {f:'HgTe',s:'r',a:0.618,p:0.486,note:'Closest Hg compound to threshold (p=0.486). Te(Z=52) is the heaviest anion in any Hg pair here — still not enough to cross the decision boundary.'},
+  {f:'CaBr2',s:'d',a:0.376,p:0.211,note:'Ca(Z=20) is the lightest metal in the dataset. No other alkaline-earth splitter exists in training to form a pattern; the model has no template for Ca-Dresselhaus.'},
+  {f:'HgI2',s:'d',a:0.311,p:0.288,note:'Hg(80)+I(53) are both heavy, yet p=0.29. 2D HgI₂ may adopt a polymorph with structural fingerprints outside the learned distribution.'},
+];
+
+const FP=[
+  {f:'Ge2P2Te6',s:'u',a:0.0,p:0.854,note:'Mirror image of Ga₂P₂Te₆ (α=3.83, p=0.315). Model inverted the Ga↔Ge pair — Z=31 vs Z=32 — where local coordination, not atomic number, decides reality.'},
+  {f:'P2Pb2S6',s:'u',a:0.0,p:0.853,note:'Pb(82)≈Bi(83) in Z. Model maps this onto Bi₂P₂S₆ (real Rashba splitter). But Pb²⁺ vs Bi³⁺ gives different local coordination in the MPX₃ framework.'},
+  {f:'P2Ta2Se6',s:'u',a:0.0,p:0.847,note:'Extrapolated from P₂Sb₂Se₆ (real splitter, p=0.920). Ta(73) is heavier than Sb(51) but electronically distinct: 5d vs 5p changes the symmetry-breaking mechanism.'},
+  {f:'W2Cl6',s:'u',a:0.0,p:0.797,note:'W(74) is very heavy; model expects splitting. But W₂Cl₆ has an unusual edge-sharing binuclear structure unlike the dichalcogenide templates it was trained on.'},
+  {f:'HgBr2',s:'u',a:0.0,p:0.744,note:'The one Hg compound predicted as splitter — wrong. Br(35) uniquely triggers a p=0.744 confidence while lighter F and heavier I/Te in Hg compounds are systematically missed.'},
+  {f:'Te2Ti2',s:'u',a:0.0,p:0.688,note:'Ti+Te appears in many TP quaternaries (TiZr₃Te₈ p=0.927). The pure binary Ti₂Te₂ has a different structure type that doesn\'t exhibit the same inversion-symmetry breaking.'},
+  {f:'Bi2Te2',s:'u',a:0.0,p:0.526,note:'Just above threshold (p=0.526). Bi(83)+Te(52), both heavy. Model generalises from Bi-chalcogenide splitters, but 2D Bi₂Te₂ lacks the required structural asymmetry.'},
+];
+
+const SBADGE={r:'Rashba',d:'Dresselhaus',u:'Unmatched'};
+const SBGCOL={r:'#dcfce7',d:'#dbeafe',u:'#f1f5f9'};
+const STCOL={r:'#166534',d:'#1e40af',u:'#475569'};
+
+function makeRow(d,isFN){
+  const errGap=isFN?(1-d.p):d.p;
+  const col=isFN?'#e24b4a':'#f97316';
+  const barW=Math.round(errGap*60);
+  return `<div style="background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:10px 14px">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:5px">
+      <span style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-text-primary)">${d.f}</span>
+      <span style="font-size:11px;padding:1px 6px;border-radius:3px;background:${SBGCOL[d.s]};color:${STCOL[d.s]}">${SBADGE[d.s]}</span>
+      ${isFN?`<span style="font-size:12px;color:var(--color-text-secondary)">α = ${d.a.toFixed(2)}</span>`:
+              `<span style="font-size:12px;color:var(--color-text-secondary)">α = 0</span>`}
+      <span style="font-size:12px;margin-left:auto;color:${col};font-weight:500">p̂ = ${d.p.toFixed(3)}</span>
+      <span style="font-size:11px;color:var(--color-text-secondary)">${isFN?'should be ≥0.5':'should be <0.5'}</span>
+      <span style="display:inline-block;width:${barW}px;height:5px;background:${col};border-radius:2px;opacity:0.7" title="error gap: ${errGap.toFixed(2)}"></span>
+    </div>
+    <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.5">${d.note}</div>
+  </div>`;
+}
+
+document.getElementById('fn-wrap').innerHTML=`
+  <div style="font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:10px">False negatives — 11 real splitters the gate missed <span style="font-size:12px;font-weight:400;color:var(--color-text-secondary)">(sorted by α, highest first)</span></div>
+  <div style="display:flex;flex-direction:column;gap:8px">${FN.map(d=>makeRow(d,true)).join('')}</div>`;
+
+document.getElementById('fp-wrap').innerHTML=`
+  <div style="font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:10px;margin-top:4px">False positives — 7 non-splitters called split <span style="font-size:12px;font-weight:400;color:var(--color-text-secondary)">(sorted by p̂, highest first)</span></div>
+  <div style="display:flex;flex-direction:column;gap:8px">${FP.map(d=>makeRow(d,false)).join('')}</div>`;
+
+const patterns=[
+  {title:'The Hg anomaly',col:'#e24b4a',icon:'⚠',body:'All 4 Hg compounds in the dataset are misclassified — HgF₂, HgTe, HgI₂ (real splitters, missed) and HgBr₂ (non-splitter, wrongly called split). Hg\'s full d¹⁰ shell produces relativistic SOC that the structural descriptors don\'t cleanly encode.'},
+  {title:'The Ga↔Ge inversion',col:'#f97316',icon:'↔',body:'Ga₂P₂Te₆ (α=3.83, p=0.315) is the strongest Rashba compound in the dataset, yet missed. Its near-twin Ge₂P₂Te₆ (non-splitter) gets p=0.854. A Z=31→32 substitution completely inverts the output — suggesting structural coordination in the MPX₃ lattice, not composition, drives the truth.'},
+  {title:'High Z-contrast blindspot',col:'#7c3aed',icon:'△',body:'When a very heavy atom is paired with a very light anion, the model underestimates: Bi₂P₂S₆ (Z-ratio 2.84, FN), HfO₂ (2.45, FN), HgF₂ (2.45, FN). The average atomic number is low even though the maximum Z drives spin-orbit coupling. The model appears to weight mean_Z over max_Z.'},
+  {title:'Structural family extrapolation',col:'#059669',icon:'→',body:'FP compounds P₂Pb₂S₆ (p=0.853) and P₂Ta₂Se₆ (p=0.847) are MPX₃ analogues that the model extrapolates from real splitters P₂Sb₂Se₆ and Bi₂P₂Te₆. Similarly, ZrS₂ (FN) is underpredicted while ZrSe₂ is TP — a lighter anion in the same structure class crosses a confidence cliff.'},
+];
+
+document.getElementById('pat-wrap').innerHTML=`
+  <div style="font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:10px">Key patterns in the errors</div>
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px">
+    ${patterns.map(p=>`<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px 16px;border-left:3px solid ${p.col}">
+      <div style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:6px">${p.title}</div>
+      <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.6">${p.body}</div>
+    </div>`).join('')}
+  </div>`;
+
+const TP_d=D.filter(x=>x.o==='TP').map(x=>({x:x.a,y:x.p,f:x.f}));
+const TN_d=D.filter(x=>x.o==='TN').map(x=>({x:x.a,y:x.p,f:x.f}));
+const FN_d=FN.map(x=>({x:x.a,y:x.p,f:x.f}));
+const FP_d=FP.map((x,i)=>({x:0,y:x.p,f:x.f}));
+
+const labelPlugin={
+  id:'lbl',
+  afterDraw(chart){
+    const ctx=chart.ctx;
+    [2,3].forEach(di=>{
+      const meta=chart.getDatasetMeta(di);
+      const ds=chart.data.datasets[di];
+      meta.data.forEach((el,i)=>{
+        const pt=ds.data[i];
+        ctx.save();
+        ctx.font='10px monospace';
+        ctx.fillStyle=di===2?'#b91c1c':'#c2410c';
+        const lbl=pt.f;
+        const tx=el.x+(di===3?-5:8);
+        const ty=el.y+3;
+        ctx.fillText(lbl,tx,ty);
+        ctx.restore();
+      });
+    });
+  }
+};
+
+new Chart(document.getElementById('sc'),{
+  type:'scatter',
+  plugins:[labelPlugin],
+  data:{
+    datasets:[
+      {label:'True positive',data:TP_d,backgroundColor:'rgba(34,197,94,0.55)',pointRadius:4,pointHoverRadius:6},
+      {label:'True negative',data:TN_d,backgroundColor:'rgba(148,163,184,0.4)',pointRadius:3,pointHoverRadius:5},
+      {label:'False negative',data:FN_d,backgroundColor:'rgba(226,75,74,0.85)',pointStyle:'triangle',pointRadius:7,pointHoverRadius:9},
+      {label:'False positive',data:FP_d,backgroundColor:'rgba(249,115,22,0.85)',pointStyle:'rectRot',pointRadius:7,pointHoverRadius:9},
+      {label:'Decision threshold',type:'line',data:[{x:0,y:0.5},{x:5.1,y:0.5}],borderColor:'rgba(148,163,184,0.6)',borderDash:[5,4],pointRadius:0,borderWidth:1.5},
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{
+      legend:{display:false},
+      tooltip:{
+        callbacks:{
+          label(ctx){
+            const d=ctx.raw;
+            const out=ctx.dataset.data===FN_d?'FN':ctx.dataset.data===FP_d?'FP':ctx.dataset.backgroundColor&&ctx.dataset.backgroundColor.includes('34,197')?'TP':'TN';
+            return [`${d.f||''}  [${out}]`,`α = ${(d.x||0).toFixed(3)}`,`p̂ = ${d.y.toFixed(3)}`];
+          }
+        }
+      }
+    },
+    scales:{
+      x:{title:{display:true,text:'Rashba / Dresselhaus parameter α (eV·Å)',font:{size:11}},min:-0.1,max:5.2,grid:{color:'rgba(148,163,184,0.15)'}},
+      y:{title:{display:true,text:'p̂(split)',font:{size:11}},min:-0.02,max:1.08,grid:{color:'rgba(148,163,184,0.15)'}},
+    }
+  }
+});
+</script>
